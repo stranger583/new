@@ -1,0 +1,411 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+}
+
+.wrapper_1{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+/* *{
+    outline: 1px solid red;
+} */
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+/* --------------------------------------------------------------------------------------------------------------- */
+
+.project{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    max-width: 100%;
+    padding-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.project1{
+    background-image: url("/img/project1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 100px);
+    /* max-width: 100%; */
+    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+}
+
+.project1 .project1_title{
+    max-width: 40%;
+    margin: 0 auto 100px;
+}
+
+.project1 h1{
+    text-align: center;
+    margin: -110px auto 0;
+    font-size: 64px;
+    width: 450px;
+    line-height: 1;
+    
+}
+
+.project1 h3{
+    font-size: 18px;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+
+.project1 h4{
+    font-size: 20px;
+    text-align: center;
+    margin: 0 auto;
+    width: 450px;
+}
+
+.project1 .project1_btn{
+    width: 40%;
+    margin: 0 auto;
+}
+.project1 .project1_btn input{
+    display: block;
+    width: 373px;
+    height: 59px;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border: 1px solid white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: verdana;
+    margin: 0 auto;
+}
+
+.project1 .project1_btn input:hover{
+    background-color: rgba(225, 225,225, .7);
+}
+
+.project .project1 ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+.project .project1 ul li{
+    flex-basis: 250px;
+}
+
+
+.project .project1 ul li h2{
+    font-size: 36px;
+    text-align: center;
+}
+
+.project .project1 ul li p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.project2{
+    margin-top: 120px;
+}
+.project2 iframe{
+    display: block;
+    margin: 0 auto;
+}
+
+.project3{
+    height: 100vh;
+    margin-top: 120px;
+    padding: 0 50px;
+    box-sizing: border-box;
+    height: 700px;
+}
+
+.project3 .project3_container{
+    position: relative;
+}
+
+
+.project3 .project3_img{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.project3 .project3_container img{
+    width: 45%;
+    display: block;
+    position: absolute;
+    visibility: hidden;
+    left: 30%;
+    top: 22%; 
+}
+
+.project3 .project3_container .project3_img .i1{
+    visibility: visible;
+}
+
+.project3_text div{
+    width: 400px;
+    position: absolute;
+ 
+}
+
+.project3_text  .text1{
+    top: 35%;  
+    left: 5%; 
+}
+
+.project3_text  .text2{
+    top: 15%;  
+    right: 5%;
+}
+
+.project3_text  .text3{
+    top: 55%;  
+    right: 5%;
+}  
+
+
+.project3_text h3{
+    font-size: 26px;
+    margin-bottom: 10px;
+    
+}
+.project3_text p{
+    font-size: 18px;
+}
+
+/* ---------------------------------------------- */
+
+.project4{
+display: flex;
+margin-top: 120px;
+}
+
+.project4 .project4_left{
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+}
+
+
+.project4 .project4_left div{
+    
+    box-sizing: border-box;
+    padding-left:21.5% ;
+}
+
+.project4 .project4_left h3{
+    font-size: 36px;
+    margin-bottom: 30px;
+    width: 78%;
+    
+}
+
+.project4 .project4_left p{
+    font-size: 18px;
+    width: 78%;
+    
+}
+
+
+.project4 .project4_right{
+    max-width: 50%;
+    min-width: 50%;
+    width: 50%;
+}
+
+.project4 .project4_right img{
+    width: 70%;
+}
+
+
+
+
+.project5{
+    margin-top:120px;
+}
+.project5 div{
+    max-width: 1400px;
+    height: 539px;
+    margin: 0 auto;
+    background-image: url("/img/project3.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-end;
+    padding: 40px;
+}
+
+.project5 div p{
+    border-right:3px solid #E3AD00 ;
+    width: 50%;
+    padding-right: 20px;
+    margin-bottom: 0;
+    text-align: end;
+    font-size: 18px;
+}
+
+.project6{
+    display: flex;
+    margin-top: 120px;
+    }
+    
+    .project6 .project6_right{
+        max-width: 50%;
+        min-width: 50%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    
+    .project6 .project6_right div{
+        width: 78%;
+        box-sizing: border-box;
+        margin-left:20% ;
+    }
+    
+    .project6 .project6_right h3{
+        font-size: 36px;
+        margin-bottom: 20px;
+        width: 78%;
+        
+    }
+    
+    .project6 .project6_right p{
+        font-size: 18px;
+        width: 78%;
+        
+    }
+    
+    
+    .project6 .project6_left{
+        max-width: 50%;
+        min-width: 50%;
+        width: 50%;
+        display: flex;
+        justify-content: end;
+    }
+    
+    .project6 .project6_left img{
+        width: 70%;
+        text-align: end;
+    }
+
+
+    .project7{
+        margin-top: 120px;
+    text-align: center;
+}
+
+
+/*-------------------------------------------------------------------------------------------------------------------  */
+footer{
+    width: 100%;
+    margin: 150px auto 25px;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}

@@ -1,0 +1,344 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    margin: 100px auto 25px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+/* ---------------------------------------------------------------------------------------- */
+.wrapper{
+    max-width: 1920px;
+    margin: 0 auto; 
+
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.buyleft{
+    width: 60%;
+    max-width: 60%;
+    min-width: 60%;
+
+}
+
+.buy_right{
+    width: 40%;
+    max-width: 40%;
+    min-width: 40%;
+
+}
+
+
+
+*{
+    /* outline: 1px solid #f00; */
+}
+
+.buy{
+    display: flex;
+}
+
+.buyleft{
+    /* border: 1px solid white; */
+    /* margin-top: 200px;  */
+    position: sticky;
+    top: 0; 
+    height: 40%;
+    /* flex-grow: 1; */
+    
+}
+
+.buy_left{
+    /* position: sticky;
+    top: 200px; */
+    /* padding-top: 200px; */
+    /* border: 1px solid white; */
+    margin: 212px auto 0;
+}
+
+.buy_left img{
+    /* width: 739px; */
+    /* visibility: hidden; */
+    /* height: 350px;   */
+    width: 98%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    /* position: fixed; */
+}
+
+.buy_right{
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 212px auto 0;
+}
+
+.buy_right .buy_right_1 .buy_title{
+    /* display: flex; */
+    margin-bottom: 20px;
+    align-items: baseline;
+    
+}
+.buy_right .buy_right_1 h2{
+    font-size: 64px;
+    margin-right: 15px;
+}
+.buy_right .buy_right_1 h3{
+   font-size: 24px;
+}
+.buy_right .buy_right_1 p{
+    font-size: 18px;
+    max-width: 550px;
+    margin-bottom: 30px;
+}
+.buy_right .buy_right_1 .hardware{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin: 0;
+}
+.buy_right .buy_right_1 .hardware h4{
+    line-height: 36px;
+    font-size: 18px;
+    margin: 20px ;
+    margin-left: 0;
+}
+
+.buy_right .buy_right_1 .buy_right_2{
+}
+
+.buy_right .buy_right_1 .buy_right_2 h3{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.buy_right .buy_right_1 .buy_right_2 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.buy_right .buy_right_1 .buy_right_2 input{
+    border-radius: 5px;
+    width: 500px;
+    height: 50.59px;
+    border: 1px solid white;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255 ,0);
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+
+}
+
+.buy_right .buy_right_1 .buy_right_2 .country{
+    display: flex;
+    justify-content: space-between;
+    max-width: 548px;
+    
+}
+
+.buy_right .buy_right_1 .buy_right_2 .country div{
+    /* margin-right: 40px; */
+    flex-grow: 1;
+    width: 250px;
+    margin-bottom: 37px;
+}
+
+.buy_right .buy_right_1 .buy_right_2 .country input{
+   width: 220px;
+}
+
+.buy_right .buy_right_1 .buy_right_2  .buy_order{
+    background-color: gray;
+    
+    height: 60px;
+}
+
+.buy_right .buy_right_1 .buy_right_3{}
+.buy_right .buy_right_1 .buy_right_3 h3{
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.buy_right .buy_right_1 .buy_right_3 p{
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+.buy_right .buy_right_1 .buy_right_3 input{
+    border-radius: 5px;
+    width: 500px;
+    height: 50.59px;
+    border: 1px solid white;
+    font-size: 18px;
+    background-color:rgba(255, 255, 255 ,0);
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+}
+
+
+
+.buy_right .buy_right_1 .buy_right_3 {
+    /* display: none; */
+}
+
+.buy_right .buy_right_1 .buy_right_3 .country{
+    display: flex;
+    justify-content: space-between;
+    max-width: 548px;
+}
+
+.buy_right .buy_right_1 .buy_right_3 .country div{
+    /* margin-right: 40px; */
+    flex-grow: 1;
+    width: 250px;
+    margin-bottom: 37px;
+}
+
+.buy_right .buy_right_1 .buy_right_3 .country input{
+   width: 230px;
+}
+
+.buy_right .buy_right_1 .buy_right_3  .buy_order{
+
+    background-color: gray;
+    height: 60px;
+}
+
+.buy_right .buy_right_1 .buy_right_3  .buy_order:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+.buy_right .buy_right_1 .buy_right_2  .buy_order:hover{
+    background-color: rgb(70, 70, 70);
+}
+
+@media screen and (max-width:1440px) {
+    .buy_right .buy_right_1 .buy_right_3 p {
+        font-size: 16px;
+    }
+
+    .buy_right .buy_right_1 .hardware h4 {
+        font-size: 16px;
+    }
+
+    .buy_right .buy_right_1 p {
+        font-size: 16px;
+    }
+
+    .buy_right .buy_right_1 .buy_right_2 p {
+        font-size: 16px;
+    }
+
+    .buy_right .buy_right_1 .buy_right_2 .buy_order {
+        font-size: 16px;
+    }
+
+    .buy_right .buy_right_1 .buy_right_3 .buy_order {
+        font-size:16px;
+    }
+
+    .buy_left img{
+        width: 96%;
+    }
+}

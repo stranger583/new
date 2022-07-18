@@ -1,0 +1,251 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    margin: 30px auto 0px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+/* -----------------------------service------------------------------------- */
+
+.body_service{
+    overflow-x: hidden;
+}
+
+.push{
+    padding-top: 166px;
+}
+
+.wrapper_service{
+   max-width: 1920px;
+    margin: 0 auto;
+    
+    
+    
+}
+
+.service{
+    height: 100vh ;
+    width: 100%;
+    background-image: url("/img/service_bgi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    
+}
+
+
+.service span h1{
+    font-size: 64px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.service .service_main{
+    display: flex;
+    overflow: hidden;
+}
+
+.service_main .service_text{
+    width: 560px;
+    height: 654px;
+    border: 1px solid #fff; 
+    margin-left: 14.7%;
+    margin-right: 8.2%;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, .3);
+    flex-shrink: 0;
+}
+
+.service_main .service_text div{
+    margin: 10px 30px 34px 38px;
+}
+
+.service_main .service_text h2{
+    font-size: 36px;
+    margin-top: 221px;
+    
+}
+
+.service_main .service_text .service_line{
+    width: 144px;
+    height: 3px;
+    background-color: #fff;
+    margin-left: 0;
+
+}
+
+ .service_main .service_text p {
+    font-size: 18px;
+    
+
+}
+
+.service .service_list{
+    display: flex;
+    height: 654px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, .3);
+    margin-top: 40px;
+    background-color:rgba(217, 217, 217, .1);
+    
+    
+}
+
+.service .service_list div{
+    border: 1px solid #fff;
+    flex-shrink: 0;
+    margin-left: 43px;
+    margin-top: 40px;
+    height: 583px;
+    width: 290px;
+    border-radius: 10px;
+    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, .3);
+    background-color:rgba(217, 217, 217, .1);
+
+}
+
+.service .service_list h3{
+    text-align: center;
+    margin-bottom: 23px;
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.service .service_list p{
+    display: block;
+    margin: 0 auto;
+    font-size: 16px;
+    width: 250px;
+}
+
+.service .service_list img{
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 23px;
+
+}
+
+.service_list .service1:hover{
+    background-color:rgba(217, 217, 217, .3);
+}
+
+.service_list .service2:hover{
+    background-color:rgba(217, 217, 217, .3);
+}
+
+.service_list .service3:hover{
+    background-color:rgba(217, 217, 217, .3);
+}
+
+
+@media screen and (max-width:1440px) {
+    .service_main .service_text{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    .service_main .service_list{
+        
+    }
+}

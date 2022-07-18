@@ -1,0 +1,274 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    margin: 100px auto 25px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+/* ---------------------------------concept1------------------------------------------- */ 
+.wrapper_concept{
+    max-width: 1920px;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+
+.wrapper_concept .space{
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    /* width: 100%; */
+   
+}
+
+.space1{
+    display: block;
+    /* border: 1px solid white; */
+    padding-top: 166px;
+    padding-left: 70px;
+    /* margin-left: 300px; */
+    
+}
+
+.space1 a{
+    font-size: 14px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.space2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    /* max-width: 1920px; */
+}
+
+.space2 .space2_img{
+    flex-grow: 0;
+    flex-basis: 478px;
+    /* width: 50%; */
+}
+
+.space2 .space2_img img{
+    /* margin-left:448px */
+}
+
+
+.space2 .space2_text{
+    flex-grow: 0;
+    /* width: 50%; */
+    /* margin-left: 63PX; */
+}
+
+.space2 .line{
+    background-color: #fff;
+    width: 102px;
+    height: 5px;
+    margin-bottom:40px ;
+}
+
+.space2 h2{
+    font-size: 64px;
+    /* margin-top: 50PX; */
+    margin-bottom:20px ;
+    
+}
+
+.space2 p{
+    /* margin-bottom: 44px; */
+    width: 500px;
+    font-size: 18px;
+}
+
+.space3{
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    margin-top: 150px;
+    /* height: calc(100vh - 166px); */
+}
+
+.space3 img{
+    display: block;
+    /* margin: 0 auto; */
+    width: 100%;
+    
+    
+}
+
+.space4{
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-top: 150px;
+    /* margin-left: 290px; */
+    /* max-width: 1920px; */
+}
+
+
+.space4 img{
+    display: block;
+    margin: 0 auto;
+}
+
+.space4_text{
+    /* margin-right: 450px; */
+    font-size: 18px;
+    margin-left: 63px;
+}
+
+.space4_text p{
+    /* margin-right: 100px; */
+    width: 500px;
+}
+
+
+.space5{
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    /* margin-right: 316px; */
+    margin-top: 150px;
+    
+}
+.space5_text{
+    /* width: 50%; */
+    /* margin-left: 290px; */
+    font-size: 18px;
+    margin-right: 17px;
+}
+
+.space5_text p{
+    width: 500px;
+    /* margin-right: 100px; */
+}
+
+.space5 img{
+    /* margin-right: 310px; */
+    margin-left: 17px;
+}
+
+
+
+.space6{
+    /* width: 100%; */
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: center;
+    /* margin-left: 290px; */
+    align-items: flex-end;
+    margin-top: 150px;
+}
+
+.space6_text{
+    margin-left: 63px;
+    /* margin-right: 450px; */
+    font-size: 18px;
+}
+
+.space6_text p{
+    width: 500px;
+    /* margin-right: 100px; */
+}

@@ -1,0 +1,165 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+footer{
+    width: 100%;
+    margin: 30px auto 0px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+
+/* ----------------------------------------------------------------------------------------------- */
+
+.wrapper{
+    /* background-image: url(/img/about_bgi.gif);
+    background-size: 100%;
+    height: 1080px;
+    background-repeat: no-repeat; */
+    width: 100%;
+    margin: 0 auto;
+    
+    
+}
+
+.about{
+    padding-top: 166px;
+}
+.about1{
+    background-image: url(/img/about_bgi.gif);
+    background-size: cover;
+    background-position: center center;
+    
+    background-repeat: no-repeat;
+     /* display: flex;
+    flex-direction: column; */
+    background-color: rgba(0, 0, 0, .15);
+    background-blend-mode: multiply;
+    height: 69vh ;
+    padding-left: 5%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+.about1 img{
+    display: block;
+    width: 200px;
+    margin: 3% 0 2% 0 ;
+    /* margin: 232px  144px 70px; */
+    
+}
+
+.about1 .about_text {
+    /* display: block;
+    overflow: hidden; */
+    /* height: 300px;
+    width: 1600px; */
+    /* margin-left: 144px; */
+    
+}
+
+.about1 .about_text p{
+    display: block;
+    margin-bottom: 25px;
+    line-height: 1.4;
+    box-sizing: border-box;
+    /* padding-right: 500px; */
+    /* width: 900px; */
+    width: 55%;
+    font-size: 18px;
+    font-weight: 100;
+    
+}

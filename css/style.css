@@ -1,0 +1,421 @@
+@import url("reset.css");
+
+body{
+    font-size: 24px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+   
+}
+    
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1920px;
+    /* overflow: hidden; */
+    
+    
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    width: 118.42px;
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+
+.home1{
+    padding-top: 200px;
+    box-sizing: border-box;
+    /* width: 100%; */
+    height: 100%;
+    /* position: relative; */
+    /* height: 1080px; */
+    margin: 0 auto 200px;
+}
+
+.home1_1{
+    background-image: url("/img/home_bgi.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    /* width: 1400px; */
+    height: 100vh;
+    margin: 0 auto;
+    width: 100%;
+    /* ------------------------------------------------- */
+    /* position: absolute;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+/* -------------------------------------------------- */
+.home1_1_1{}
+
+.home1_1_1 h2 {
+    font-size: 64px;
+    Line-height:77.45px;
+    padding:24px 38px 12px;
+}
+
+.home1_1_1 p{
+    padding-left: 38px;
+    font-size: 24px;
+}
+
+.home2{
+    /* width: 100%; */
+    display: block;
+    margin: 0 auto;
+    height: 100vh;
+    margin-bottom: 200px;
+    background-image: url(/img/project_01.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.home2_1{
+}
+
+
+
+.home2_1 h2{
+    font-size: 64px;
+    line-height: 77px;
+    /* padding-top: 402px; */
+    padding-top: 21.5%;
+    /* margin-left: 155px; */
+    margin-left: 6%;
+}
+
+.home2_1 h3{
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    /* margin-left: 155px; */
+    margin-left: 6%;
+}
+
+.home2_1 p{
+    font-size: 18px;
+    margin-bottom: 40px;
+    /* margin-left: 155px; */
+    margin-left: 6%;
+}
+
+.home2_1_ul{
+    /* margin-left: 155px; */
+    margin-left: 6%;
+    display: flex;
+}
+
+.home2_1_ul li{
+    margin-right:10px;
+    width: 148px;
+    height: 2.5px;
+    background-color: #fff;
+}
+
+/* .home2_1_ul li img{
+    display: block;
+    width: 128px;
+} */
+
+
+.home3{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+
+.home3_1{
+      flex-grow: 1;
+      box-sizing: border-box;
+      padding-left: 16%;
+
+}
+
+.home3_1 h2{
+    /* text-align: center; */
+    width: 30%;
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+
+.home3_1 p{
+    width: 600px;
+    /* text-align: center; */
+    margin-bottom: 50px;
+    font-size: 18px;
+    
+}
+
+.home3_1 input{
+    display: block;
+    /* margin: 0 auto; */
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 60px;
+    width: 341px;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+.home3_2{
+    flex-grow: 2;
+    box-sizing: border-box;
+}
+.hom3_2 img{
+    margin: 540px auto;
+}
+
+.home4{
+    display: flex;
+    /* width: 100%; */
+    height: 500px;
+    margin-bottom: 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.home4_1{
+    flex-grow: 1;
+}
+
+.home4_1 img{
+    display: block;
+    margin: 0 auto;
+
+}
+
+.home4_2{
+    flex-grow: 1;
+}
+
+.home4_2 h2{
+    text-align: left;
+    font-size: 36px;
+    margin-bottom: 34px;
+}
+
+.home4_2 p{
+    width: auto;
+    text-align: left;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+.home4_2 input{
+    display: block;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 60px;
+    width: 341px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home5{
+    /* width: 90%; */
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: 1px solid white; */
+}
+
+.home5_1{
+    /* width: 100%; */
+    display: flex;
+    margin: 0 auto;
+    /* width: 100%; */
+    /* border: 1px solid white; */
+}
+
+
+
+.home5_1 .home5_1_ul{
+    display: flex;
+    flex-grow: 1;
+    
+    
+}
+
+.home_service1{
+    transform: scale(.7);
+}
+
+.home_service3{
+    transform: scale(.7);
+}
+
+.home5_1_ul li{
+    margin: 0 0 20px;
+}
+
+.home5_1_ul li img{
+    /* display: block; */
+}
+
+.home5_1_ul li a{
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 40px auto 0;
+}
+
+
+.home5 .polygon1  {
+    /* display: block; */
+    flex-grow: 1;
+    margin: 218.69px 0;
+    
+}
+
+.home5 .polygon2  {
+    flex-grow: 0;
+    /* display: block; */
+    
+    margin: 218.69px auto;
+    
+}
+
+.home5 input{
+    display: block;
+    margin: 40px auto 0;
+    background: none;
+    border: 1px solid white;
+    color: white;
+    height: 60px;
+    width: 1200px;
+    font-family: verdana;
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+
+footer{
+    width: 100%;
+    margin: 200px auto 25px;
+}
+
+span{
+    margin: 0 20px;
+}
+
+
+footer{
+    width: 100%;
+    margin: 100px auto 25px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    border-bottom: 1px solid white ;
+}
+
+footer a:hover{
+    border-bottom: 1px solid white ;
+ }
+
+input:hover{
+    background-color: rgba(255, 255, 255 ,.5);
+}
+
+.home5 .polygon2:hover {
+    transform: translate(10px);
+}
+
+.home5 .polygon1:hover {
+    transform: translate(-10px);
+}
+
+
+
