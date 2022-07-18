@@ -1,6 +1,6 @@
 @import url("reset.css");
 body{
-    font-size: 18px;
+    font-size: 24px;
     line-height: 1.6;
     background-color: black;
     color: white;
@@ -32,7 +32,7 @@ nav .about_logo{
 nav img{
     /* position: absolute; */
     width: 124px;
-    margin-top: 29px;
+    margin-top: 42.5px;
     margin-left: 70px;
     /* left: 231px;
     top: 30px; */
@@ -41,7 +41,7 @@ nav img{
 
 nav .nav_ul{
     display: flex;
-    margin-top: 65px;
+    margin-top: 70.5px;
     margin-right: 70px;
     /* flex-direction: row;
     align-items: flex-start; */
@@ -90,7 +90,7 @@ footer span{
 
 footer p{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     padding-bottom: 25px;
 }
@@ -155,14 +155,14 @@ footer a:hover{
     top: 200px; */
     /* padding-top: 200px; */
     /* border: 1px solid white; */
-    margin: 212px auto 0;
+    margin: 200px auto 0;
 }
 
 .buy_left img{
     /* width: 739px; */
     /* visibility: hidden; */
     /* height: 350px;   */
-    width: 98%;
+    width: 80%;
     height: auto;
     display: block;
     margin: 0 auto;
@@ -173,7 +173,7 @@ footer a:hover{
     display: flex;
     justify-content: center;
     flex-grow: 1;
-    margin: 212px auto 0;
+    margin: 200px auto 0;
 }
 
 .buy_right .buy_right_1 .buy_title{

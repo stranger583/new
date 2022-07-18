@@ -32,7 +32,7 @@ nav .about_logo{
 nav img{
     /* position: absolute; */
     width: 124px;
-    margin-top: 29px;
+    margin-top: 42.5px;
     margin-left: 70px;
     /* left: 231px;
     top: 30px; */
@@ -41,7 +41,7 @@ nav img{
 
 nav .nav_ul{
     display: flex;
-    margin-top: 65px;
+    margin-top: 70.5px;
     margin-right: 70px;
     /* flex-direction: row;
     align-items: flex-start; */
@@ -90,7 +90,7 @@ footer span{
 
 footer p{
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     margin-top: 0;
     padding-bottom: 25px;
 }
@@ -131,9 +131,8 @@ section{
     flex-direction: column;
     align-items: center;
     height: 476.5px;
-    width: 10%;
+    width: 30%;
     margin-left: 100px;
-    margin-right: 60px;
     /* max-width: 10%; */
 }
 
@@ -239,42 +238,42 @@ section{
     visibility: hidden;
 }
 
-
-
-footer{
-    width: 100%;
-    margin: 150px auto 25px;
+.item1 {
+    width: 50px;
 }
 
-footer span{
-    margin: 0 20px;
+.item1 svg{
+    display: block;
+    margin: 0 auto 20px;
 }
 
-.footer1_1 {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
+.item3{
+    width: 50px;
 }
 
-footer p{
-    text-align: center;
-    font-size: 14px;
-    margin-top: 0;
-    padding-bottom: 25px;
+.item3 svg{
+    display: block;
+    margin: 0 auto 20px;
 }
-
 
 
 footer a:hover{
     border-bottom: 1px solid white;
 }
 
-span:hover path{
-    fill: red;
+.item1:hover path{
+    transform: scale(2, 2);
+}
+
+.item3:hover  path{
+    transform: scale(2, 2);
 }
 
 @media screen and (max-width:1440px) {
+ .concept  .concept1{
+    margin-right: 60px;
+   }
+   
     .concept3{
         box-sizing: border-box;
         padding-left: 130px;
