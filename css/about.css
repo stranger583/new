@@ -6,6 +6,7 @@ body{
     color: white;
     font-family: verdana, arial,"微軟正黑體";
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 nav{
@@ -19,6 +20,9 @@ nav{
     margin: 0 auto;
      position: fixed; 
      z-index: 2;
+}
+
+nav .logo{
 }
 
 nav .about_logo{
@@ -52,7 +56,7 @@ nav .nav_ul{
 }
 
 nav .nav_ul li{
-    width: 118.42px;
+    /* width: 118.42px; */
 }
 
 nav .nav_ul li a{
@@ -62,6 +66,10 @@ nav .nav_ul li a{
     font-size: 16px;
     text-align: center;
 
+}
+
+nav .nav_ul a:hover{
+    border-bottom: 1px solid white ;
 }
 
 footer{
@@ -92,9 +100,7 @@ footer a{
     text-decoration: none;
 }
 
-nav a:hover{
-    border-bottom: 1px solid white;
-}
+
 
 footer a:hover{
     border-bottom: 1px solid white;
@@ -118,7 +124,7 @@ footer a:hover{
     padding-top: 166px;
 }
 .about1{
-    background-image: url(/img/about_bgi.gif);
+    background-image: url(../img/about_bgi.gif);
     background-size: cover;
     background-position: center center;
     

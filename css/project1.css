@@ -6,6 +6,7 @@ body{
     color: white;
     font-family: verdana, arial,"微軟正黑體";
     font-weight: bold;
+    letter-spacing: 1px;
 }
 
 .wrapper_1{
@@ -16,6 +17,7 @@ body{
 /* *{
     outline: 1px solid red;
 } */
+
 
 nav{
     background-color: rgba(0, 0, 0, 1);
@@ -28,6 +30,9 @@ nav{
     margin: 0 auto;
      position: fixed; 
      z-index: 2;
+}
+
+nav .logo{
 }
 
 nav .about_logo{
@@ -61,7 +66,7 @@ nav .nav_ul{
 }
 
 nav .nav_ul li{
-    width: 118.42px;
+    /* width: 118.42px; */
 }
 
 nav .nav_ul li a{
@@ -72,6 +77,12 @@ nav .nav_ul li a{
     text-align: center;
 
 }
+
+nav .nav_ul a:hover{
+    border-bottom: 1px solid white ;
+}
+
+
 /* --------------------------------------------------------------------------------------------------------------- */
 
 .project{
@@ -87,7 +98,7 @@ nav .nav_ul li a{
 }
 
 .project1{
-    background-image: url("/img/project1.png");
+    background-image: url("../img/project1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -115,14 +126,14 @@ nav .nav_ul li a{
 }
 
 .project1 h3{
-    font-size: 18px;
+    font-size: 20px;
     text-align: center;
     margin: 0 auto;
     width: 450px;
 }
 
 .project1 h4{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
     margin: 0 auto;
     width: 450px;
@@ -132,6 +143,11 @@ nav .nav_ul li a{
     width: 40%;
     margin: 0 auto;
 }
+
+.project1 a{
+    text-decoration: none;
+}
+
 .project1 .project1_btn input{
     display: block;
     width: 373px;
@@ -298,7 +314,7 @@ margin-top: 120px;
     max-width: 1400px;
     height: 539px;
     margin: 0 auto;
-    background-image: url("/img/project3.png");
+    background-image: url("../img/project3.png");
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -376,7 +392,7 @@ margin-top: 120px;
 /*-------------------------------------------------------------------------------------------------------------------  */
 footer{
     width: 100%;
-    margin: 150px auto 25px;
+    margin: 100px auto 25px ;
 }
 
 footer span{
@@ -400,10 +416,6 @@ footer p{
 footer a{
     color: white;
     text-decoration: none;
-}
-
-nav a:hover{
-    border-bottom: 1px solid white;
 }
 
 footer a:hover{

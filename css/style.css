@@ -7,6 +7,7 @@ body{
     color: white;
     font-family: verdana, arial,"微軟正黑體";
     font-weight: bold;
+    letter-spacing: 2px;
    
 }
     
@@ -32,6 +33,9 @@ nav{
     margin: 0 auto;
      position: fixed; 
      z-index: 2;
+}
+
+nav .logo{
 }
 
 nav .about_logo{
@@ -65,7 +69,7 @@ nav .nav_ul{
 }
 
 nav .nav_ul li{
-    width: 118.42px;
+    /* width: 118.42px; */
 }
 
 nav .nav_ul li a{
@@ -191,12 +195,15 @@ nav .nav_ul li a{
       flex-grow: 1;
       box-sizing: border-box;
       padding-left: 16%;
+}
 
+.home3_1 a{
+    text-decoration: none;
 }
 
 .home3_1 h2{
     /* text-align: center; */
-    width: 30%;
+    width: 33%;
     font-size: 36px;
     margin-bottom: 34px;
 }
@@ -251,6 +258,10 @@ nav .nav_ul li a{
 
 .home4_2{
     flex-grow: 1;
+}
+
+.home4_2 a{
+    text-decoration: none;
 }
 
 .home4_2 h2{
@@ -342,6 +353,8 @@ nav .nav_ul li a{
     
 }
 
+
+
 .home5 input{
     display: block;
     margin: 40px auto 0;
@@ -394,7 +407,7 @@ footer a{
     text-decoration: none;
 }
 
-nav a:hover{
+nav .nav_ul a:hover{
     border-bottom: 1px solid white ;
 }
 

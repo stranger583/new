@@ -1,0 +1,260 @@
+@import url("reset.css");
+body{
+    font-size: 18px;
+    line-height: 1.6;
+    background-color: black;
+    color: white;
+    font-family: verdana, arial,"微軟正黑體";
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav{
+    background-color: rgba(0, 0, 0, 1);
+    width: 100%;
+    max-width: 1920px;
+    /* max-width: 1920px; */
+    display: flex;
+     justify-content:space-between;  
+     height: 166px;
+    margin: 0 auto;
+     position: fixed; 
+     z-index: 2;
+}
+
+nav .logo{
+}
+
+nav .about_logo{
+    flex-grow: 1;
+}
+
+nav img{
+    /* position: absolute; */
+    width: 124px;
+    margin-top: 29px;
+    margin-left: 70px;
+    /* left: 231px;
+    top: 30px; */
+
+}
+
+nav .nav_ul{
+    display: flex;
+    margin-top: 65px;
+    margin-right: 70px;
+    /* flex-direction: row;
+    align-items: flex-start; */
+    gap: 34px;
+
+    /* position: absolute; */
+    
+    /* height: 19px;
+    left: 1370px;
+    top: 54px; */
+    
+}
+
+nav .nav_ul li{
+    /* width: 118.42px; */
+}
+
+nav .nav_ul li a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+nav .nav_ul a:hover{
+    border-bottom: 1px solid white ;
+}
+
+footer{
+    width: 100%;
+    margin: 100px auto 25px ;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
+
+footer a:hover{
+    border-bottom: 1px solid white;
+}
+
+/* ------------------------------------all project--------------------------------------- */
+
+.all {
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header{
+    padding-top: 166px;
+    
+    
+}
+
+.header_1{
+    background-image: url("../img/allproject_bgi.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: calc(100vh - 166px);
+    margin: 0 auto;
+}
+
+.header_1_1{
+    /* overflow: hidden; */
+    margin-left: 8%;
+    box-sizing: border-box;
+    padding-top: 2%;
+}
+
+.header_1_1 h2 {
+    font-size: 64px;
+    Line-height:77.45px;
+    /* margin-left: 155px;
+    margin-top: 100px; */
+    padding:24px 38px 12px;
+    
+}
+
+.header_1_1 p{
+    /* margin-left: 155px; */
+    padding-left: 38px;
+    font-size: 20px;
+}
+
+/* ------------------------------------------------------------- */
+
+.project_one{
+    background-image: url("../img/project_01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+
+
+.project_two{
+    background-image: url("../img/project_02.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.project_three{
+    background-image: url("../img/project_03.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.project1{
+    /* width: 100%; */
+    height: calc(100vh - 166px);
+    margin-top: 200px;
+    /* background-attachment: fixed; */
+}
+
+.project_text{
+    margin-left: 6%;
+    margin-top: 18%;
+}
+
+
+.project1 h2{
+    font-size: 64px;
+    line-height: 77px;
+    /* padding-top: 352px;
+    margin-left:155px; */
+
+    
+}
+
+.project1 h3{
+    font-size: 20px;
+    /* margin-left:155px; */
+}
+
+.project1 p{
+    font-size: 18px;
+    margin-top: 20px;
+    /* margin-left:155px; */
+}
+
+
+
+ .project1 input{
+    color: white;
+    width: 375px;
+    height: 70px;
+    background: rgba(255, 255, 255 ,0);
+    border: 1px solid white;
+    margin-top: 20px;
+    /* margin-left:155px; */
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+footer{
+    width: 100%;
+    margin: 150px auto 25px;
+}
+
+footer span{
+    margin: 0 20px;
+}
+
+.footer1_1 {
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    margin: 0 20px;
+}
+
+footer p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: 0;
+    padding-bottom: 25px;
+}
+
+/* --------------------------hover------------------------------- */
+
+input:hover{
+    background-color: rgba(255, 255, 255 ,.5);
+}
+
+/* a:hover{
+    border-bottom: 1px solid white;
+} */
