@@ -89,7 +89,7 @@ nav .nav_ul li a{
 }
 
 .home1_1{
-    background-image: url("/img/home_bgi.png");
+    background-image: url("../img/home_bgi.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -107,7 +107,7 @@ nav .nav_ul li a{
     background-size: cover; */
 }
 /* -------------------------------------------------- */
-.home1_1_1{}
+
 
 .home1_1_1 h2 {
     font-size: 64px;
@@ -126,14 +126,13 @@ nav .nav_ul li a{
     margin: 0 auto;
     height: 100vh;
     margin-bottom: 200px;
-    background-image: url(/img/project_01.png);
+    background-image: url(../img/project_01.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
-.home2_1{
-}
+
 
 
 
@@ -316,9 +315,7 @@ nav .nav_ul li a{
     margin: 0 0 20px;
 }
 
-.home5_1_ul li img{
-    /* display: block; */
-}
+
 
 .home5_1_ul li a{
     text-align: center;
