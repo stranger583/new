@@ -118,7 +118,7 @@ nav .nav_ul a:hover{
 
 .project1 h1{
     text-align: center;
-    margin: -110px auto 0;
+    margin: -110px auto 15px;
     font-size: 64px;
     width: 450px;
     line-height: 1;
@@ -128,7 +128,7 @@ nav .nav_ul a:hover{
 .project1 h3{
     font-size: 20px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 10px;
     width: 450px;
 }
 
@@ -137,6 +137,7 @@ nav .nav_ul a:hover{
     text-align: center;
     margin: 0 auto;
     width: 450px;
+    visibility: hidden;
 }
 
 .project1 .project1_btn{
@@ -178,10 +179,11 @@ nav .nav_ul a:hover{
 .project .project1 ul li h2{
     font-size: 36px;
     text-align: center;
+    margin-bottom: 10px;
 }
 
 .project .project1 ul li p{
-    font-size: 20px;
+    font-size: 18px;
     text-align: center;
 }
 

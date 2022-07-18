@@ -7,7 +7,7 @@ body{
     color: white;
     font-family: verdana, arial,"微軟正黑體";
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
    
 }
     
@@ -116,19 +116,19 @@ nav .nav_ul li a{
 .home1_1_1 h2 {
     font-size: 64px;
     Line-height:77.45px;
-    padding:24px 38px 12px;
+    padding:24px 38px 20px;
 }
 
 .home1_1_1 p{
     padding-left: 38px;
-    font-size: 24px;
+    font-size: 21px;
 }
 
 .home2{
     /* width: 100%; */
     display: block;
     margin: 0 auto;
-    height: 100vh;
+    height: 100vh ;
     margin-bottom: 200px;
     background-image: url(../img/project_01.png);
     background-repeat: no-repeat;
@@ -137,16 +137,19 @@ nav .nav_ul li a{
 }
 
 
-
+.home2_link{
+    text-decoration: none;
+    color: white;
+}
 
 
 .home2_1 h2{
     font-size: 64px;
     line-height: 77px;
     /* padding-top: 402px; */
-    padding-top: 21.5%;
+    padding-top: 27.5%;
     /* margin-left: 155px; */
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .home2_1 h3{
@@ -154,19 +157,20 @@ nav .nav_ul li a{
     margin-top: 10px;
     margin-bottom: 20px;
     /* margin-left: 155px; */
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .home2_1 p{
+    width: 700px;
     font-size: 18px;
     margin-bottom: 40px;
     /* margin-left: 155px; */
-    margin-left: 6%;
+    margin-left: 4.5%;
 }
 
 .home2_1_ul{
     /* margin-left: 155px; */
-    margin-left: 6%;
+    margin-left: 4.5%;
     display: flex;
 }
 
@@ -203,7 +207,7 @@ nav .nav_ul li a{
 
 .home3_1 h2{
     /* text-align: center; */
-    width: 33%;
+    width: 60%;
     font-size: 36px;
     margin-bottom: 34px;
 }
@@ -271,7 +275,7 @@ nav .nav_ul li a{
 }
 
 .home4_2 p{
-    width: auto;
+    width: 90%;
     text-align: left;
     margin-bottom: 50px;
     font-size: 18px;
