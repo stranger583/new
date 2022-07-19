@@ -225,6 +225,7 @@ footer a:hover{
 .space4_text p{
     /* margin-right: 100px; */
     width: 500px;
+    line-height: 2;
 }
 
 
@@ -246,6 +247,7 @@ footer a:hover{
 }
 
 .space5_text p{
+    line-height: 2;
     width: 500px;
     /* margin-right: 100px; */
 }
@@ -275,5 +277,6 @@ footer a:hover{
 
 .space6_text p{
     width: 500px;
+    line-height: 2;
     /* margin-right: 100px; */
 }
