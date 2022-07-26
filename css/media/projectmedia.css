@@ -1,0 +1,275 @@
+@media screen and (max-width:415px) {
+
+    *{
+        outline: 1px solid red;
+    }
+
+    .wrapper_1 nav{
+        height: 70px;
+    }
+    nav .about_logo img{
+        margin-top: 10px ;
+        margin-left: 10px;
+        height:50px;
+    }
+
+
+    nav .nav_ul{
+        position: absolute;
+        display: none;
+        width: 100%;
+        top:70px;
+        right:0;
+        margin-right: 0;
+        margin-top: 0;
+    }
+
+    nav .nav_ul li{
+        background-color: black;
+        display: block;
+    }
+    
+    nav .nav_ul li a{
+        display: block;
+        text-decoration: none;
+        color: white;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    nav .trigram{
+        display: inline;
+        line-height: 70px;
+        font-weight: 300;
+    }
+
+    nav .trigram:hover +.nav_ul{
+        display: block;
+    }
+
+/* -----------------------------------------project1----------------------------------------------------- */
+    .wrapper_1 .project{
+        /* display: block; */
+    }
+
+    .wrapper_1 .project{
+        padding-top: 100px;
+    }
+
+    .project .project1{
+        height: calc(100vh - 100px);
+    }
+
+    .project .project1 .project1_title{
+        width: auto;
+        max-width: 80%;
+    }
+
+    .project1 .project1_title h1{
+        font-size: 36px;
+        width: auto;
+    }
+
+    .project1 .project1_title h3{
+        font-size: 16px; 
+        width: 196px; 
+    }
+
+    .project .project1 ul  li h2{
+        font-size: 20px;
+    }
+
+    .project .project1 ul  li p{
+        font-size: 16px;
+    }
+
+    .project .project1 .project1_btn {
+        width: 60%;
+    }
+
+
+/* -----------------------------------------project2----------------------------------------------------- */
+.wrapper_1 .project2{
+    max-width: 100%;
+    margin-top: 0;
+}
+
+iframe{
+    width: 100%;
+    height: auto;
+}
+/* -----------------------------------------project3----------------------------------------------------- */
+.wrapper_1 .project3{
+    margin-top: 30px;
+    /* height: calc(100vh - 206px); */
+    height: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.wrapper_1 .project3 .project3_container img{
+    /* visibility: visible; */
+    width: 600px;
+    margin: 0 ;
+    top:0;
+    left: 50%;
+    transform: translateX(-50%);
+    /* right: 0; */
+}
+.wrapper_1 .project3_text{
+    padding-top: 410px;
+}
+.wrapper_1 .project3_text div{
+    width: auto;
+    position: relative;
+ 
+}
+.wrapper_1 .project3_text  .text1{
+    left: 0;
+}
+
+.wrapper_1 .project3_text  .text2{
+    right: 0;
+}
+
+.wrapper_1 .project3_text  .text3{
+    right: 0;
+} 
+
+.project3 .project3_text h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    
+}
+
+.project3 .project3_text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+/* -----------------------------------------project4----------------------------------------------------- */
+.wrapper_1 .project4{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
+
+.wrapper_1 .project4 .project4_left {
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.wrapper_1 .project4 .project4_left .project4_left_2{
+margin-left: 0;
+}
+
+.wrapper_1 .project4 .project4_right {
+    order: 1;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    overflow: hidden;
+}
+
+.wrapper_1 .project4 .project4_right img{
+    width: auto;
+    height: 560px;
+}
+
+.wrapper_1 .project4 .project4_left h3{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.wrapper_1 .project4 .project4_left .redline{
+    margin-left: 10px;
+}
+.wrapper_1 .project4 .project4_left p{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+/* ------------------------------------------------------------ */
+.wrapper_1 .project5 div {
+    padding-right: 15px;
+    height: calc(100vh - 70px);
+    background-position: right;
+}
+
+.wrapper_1 .project5 div p{
+    font-size: 14px;
+    width: auto;
+    padding-right: 10px;
+    
+}
+
+.wrapper_1 .project5 div p br{
+    display: none;
+}
+/* ------------------------------------------------------------ */
+
+.wrapper_1 .project6{
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    height: 100vh;
+}
+
+.wrapper_1 .project6 .project6_left {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+}
+
+.wrapper_1 .project6 .project6_left .project6_left_2{
+margin-left: 0;
+}
+
+.wrapper_1 .project6 .project6_right {
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    flex-grow: 1;
+}
+
+.wrapper_1 .project6 .project6_right div{
+    margin: 0;
+    max-width: 100%;
+    width: auto;
+}
+
+.wrapper_1 .project6 .project6_left img{
+    width: auto;
+    height: 560px;
+}
+
+.wrapper_1 .project6 .project6_right h3{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+}
+
+.wrapper_1 .project6 .project6_right .redline{
+    margin-left: 10px;
+}
+.wrapper_1 .project6 .project6_right p{
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+}
+
+
+
+
+}

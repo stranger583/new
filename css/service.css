@@ -16,7 +16,7 @@ nav{
     /* max-width: 1920px; */
     display: flex;
      justify-content:space-between;  
-     height: 166px;
+     height: 121px;
     margin: 0 auto;
      position: fixed; 
      z-index: 2;
@@ -31,8 +31,9 @@ nav .about_logo{
 
 nav img{
     /* position: absolute; */
-    width: 124px;
-    margin-top: 42.5px;
+    /* width: 124px; */
+    height: 65px;
+    margin-top: 28px;
     margin-left: 70px;
     /* left: 231px;
     top: 30px; */
@@ -41,7 +42,7 @@ nav img{
 
 nav .nav_ul{
     display: flex;
-    margin-top: 70.5px;
+    margin-top: 47px;
     margin-right: 70px;
     /* flex-direction: row;
     align-items: flex-start; */
@@ -112,7 +113,7 @@ footer a:hover{
 }
 
 .push{
-    padding-top: 166px;
+    padding-top: 121px;
 }
 
 .wrapper_service{
@@ -155,7 +156,7 @@ footer a:hover{
     margin-right: 8.2%;
     margin-top: 40px;
     border-radius: 10px;
-    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, .3);
+    box-shadow: 4px 1px 4px 1px rgba(0, 0, 0, .3);
     flex-shrink: 0;
 }
 
@@ -188,7 +189,7 @@ footer a:hover{
     height: 654px;
     border: 1px solid #fff;
     border-radius: 10px;
-    box-shadow: 5px 4px 4px 5px rgba(0, 0, 0, .3);
+    box-shadow: 4px 1px 4px 1px rgba(0, 0, 0, .3);
     margin-top: 40px;
     background-color:rgba(217, 217, 217, .1);
     
