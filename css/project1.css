@@ -517,16 +517,8 @@ margin-top: 120px;
 
 /* ------------------------------------- */
 
-@keyframes neon {
-    0% {
-      box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red,
-        0 0 70px red, 0 0 80px red;
-    }
-    100% {
-      box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red,
-        0 0 35px red, 0 0 40px red;
-    }
-  }
+
+  
 
 
   /* ------------------------------------- */
@@ -621,16 +613,8 @@ margin-top: 120px;
 
     /* ------------------------------------- */
 
-@keyframes neon {
-    0% {
-      box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red,
-        0 0 70px red, 0 0 80px red;
-    }
-    100% {
-      box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red,
-        0 0 35px red, 0 0 40px red;
-    }
-  }
+
+  
 
 
   /* ------------------------------------- */

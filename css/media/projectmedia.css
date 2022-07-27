@@ -1,7 +1,7 @@
 @media screen and (max-width:415px) {
 
     *{
-        outline: 1px solid red;
+         /* outline: 1px solid red;  */
     }
 
     .wrapper_1 nav{
@@ -238,7 +238,7 @@ margin-left: 0;
     width: 100%;
     max-width: 100%;
     min-width: 100%;
-    flex-grow: 1;
+    /* flex-grow: 1; */
 }
 
 .wrapper_1 .project6 .project6_right div{
@@ -261,6 +261,7 @@ margin-left: 0;
 
 .wrapper_1 .project6 .project6_right .redline{
     margin-left: 10px;
+    width: 80px;
 }
 .wrapper_1 .project6 .project6_right p{
     box-sizing: border-box;
@@ -269,7 +270,39 @@ margin-left: 0;
     width: 100%;
 }
 
+.wrapper_1 .project7{
+    margin-top: 0;
+}
 
+.wrapper_1 footer{
+    margin-top: 20px;
+}
 
+footer .footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+footer .footer1 span{
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid white;
+}
+
+footer .footer1_1{
+    text-align: left;
+    padding: 5px 10px ;
+    margin: 0;
+    border-bottom: 1px solid white;
+    
+}
+
+.wrapper_1 footer .footer2{
+    text-align: left;
+    font-size: 14px;
+    padding:  5px 10px;
+}
 
 }

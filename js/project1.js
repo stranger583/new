@@ -12,17 +12,29 @@ window.addEventListener("scroll",function(){
     item.classList.remove("-on")
    })
 
+   
 
+   project3_img[0].classList.add("-on")
 
-
-   if (scrollY >= 1500 ) {
-     let n = Math.ceil( (scrollY - 1500) / 7.1 );
+   if (scrollY >= 1500 && this.outerWidth > 1440 ) {
+      project3_img[0].classList.remove("-on");
+      n = Math.ceil( (scrollY - 1500) / 7.1 );
     if (n > 70) {
         n = 69;
         
     }
       project3_img[n].classList.add("-on")
        }
+
+  if (scrollY >= 600 && this.outerWidth < 415) {
+    console.log("aaa");
+    project3_img[0].classList.remove("-on");
+      n = Math.ceil( (scrollY - 600) / 5.1 );
+    if (n > 70) {
+        n = 69;
+    }
+    project3_img[n].classList.add("-on")
+  }
 })
 
 

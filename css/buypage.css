@@ -1,10 +1,11 @@
 @import url("reset.css");
+@import url(../css/media/buypagemedia.css);
 body{
     font-size: 24px;
     line-height: 1.6;
     background-color: black;
     color: white;
-    font-family: verdana, arial,"微軟正黑體";
+    font-family: "Tomorrow",verdana, arial,"微軟正黑體";
     font-weight: bold;
     letter-spacing: 1px;
 }
@@ -16,7 +17,7 @@ nav{
     /* max-width: 1920px; */
     display: flex;
      justify-content:space-between;  
-     height: 166px;
+     height: 121px;
     margin: 0 auto;
      position: fixed; 
      z-index: 2;
@@ -31,17 +32,30 @@ nav .about_logo{
 
 nav img{
     /* position: absolute; */
-    width: 124px;
-    margin-top: 42.5px;
+    /* width: 124px; */
+    height: 65px;
+    margin-top: 28px;
     margin-left: 70px;
     /* left: 231px;
     top: 30px; */
 
 }
 
-nav .nav_ul{
+.trigram{
+    font-size: 30px;
+    text-align: center;
+    padding-right: 10px;
+    line-height: auto;
+    display: none;
+}
+
+.trigram:hover{
+    color:red;
+}
+
+ .nav_ul{
     display: flex;
-    margin-top: 70.5px;
+    margin-top: 47px;
     margin-right: 70px;
     /* flex-direction: row;
     align-items: flex-start; */
@@ -55,11 +69,11 @@ nav .nav_ul{
     
 }
 
-nav .nav_ul li{
+.nav_ul li{
     /* width: 118.42px; */
 }
 
-nav .nav_ul li a{
+.nav_ul li a{
     display: block;
     text-decoration: none;
     color: white;
@@ -231,6 +245,7 @@ footer a:hover{
     color: white;
     font-family: Verdana;
     font-weight: bold;
+    font-family: "Tomorrow",verdana, arial,"微軟正黑體";
 
 }
 
@@ -277,7 +292,7 @@ footer a:hover{
     font-size: 18px;
     background-color:rgba(255, 255, 255 ,0);
     color: white;
-    font-family: Verdana;
+    font-family: "Tomorrow",verdana, arial,"微軟正黑體";
     font-weight: bold;
 }
 
