@@ -477,14 +477,17 @@ footer a:hover{
 
 input:hover{
     background-color: rgba(255, 255, 255 ,.5);
+    cursor:pointer;
 }
 
 .home5 .polygon2:hover {
     transform: translate(10px);
+    cursor:pointer;
 }
 
 .home5 .polygon1:hover {
     transform: translate(-10px);
+    cursor:pointer;
 }
 
 

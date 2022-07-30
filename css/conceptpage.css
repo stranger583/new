@@ -328,3 +328,21 @@ footer a:hover{
         margin-top: 20px;
     }    
 }
+
+
+
+
+.-on{
+    transform: translateY(575px);
+    transition: all 1s;
+}
+
+.-on2{
+    transform: translateY(0);
+    transition: all 1s;
+}
+
+.-on3{
+    transform: translateY(-575px);
+    transition: all 1s;
+}

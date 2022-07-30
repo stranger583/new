@@ -1,0 +1,165 @@
+@media screen and (max-width:415px) {
+
+    *{
+        /* outline: 1px solid red;  */
+   }
+
+   .wrapper_service nav{
+       height: 70px;
+   }
+   nav .about_logo img{
+       margin-top: 10px ;
+       margin-left: 10px;
+       height:50px;
+   }
+
+
+   nav .nav_ul{
+       position: absolute;
+       display: none;
+       width: 100%;
+       top:70px;
+       right:0;
+       margin-right: 0;
+       margin-top: 0;
+   }
+
+   nav .nav_ul li{
+       background-color: black;
+       display: block;
+   }
+   
+   nav .nav_ul li a{
+       display: block;
+       text-decoration: none;
+       color: white;
+       font-size: 16px;
+       text-align: center;
+       padding-top: 5px;
+       padding-bottom: 5px;
+   }
+
+   nav .trigram{
+       display: inline;
+       line-height: 70px;
+       font-weight: 300;
+   }
+
+   nav .trigram:hover +.nav_ul{
+       display: block;
+   }
+
+   .wrapper_service footer{
+    margin-top: 20px;
+    }
+
+    /* ------------------------------------------------------------------- */
+    .wrapper_service .push{
+        padding-top: 70px;
+    }
+
+    .push .service{
+        height: auto;
+        background-image: none;    
+    }
+
+    .push .service span h1{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .push .service .service_main{
+        overflow: visible;
+        display: block;
+    }
+     .service .service_main .service_text{
+        display: none;
+    }
+
+    .push .service .service_list{
+        display: block;
+        height: auto;
+        border: 0;
+        margin-top: 0;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    .push .service .service_list div{
+        border: 0;
+        background-color: rgba(0, 0, 0, 0);
+        margin: 0 auto;
+        padding: 20px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .push .service .service_list div h3{
+        text-align: left;
+        margin-bottom: 10px;
+        
+    }
+
+    .push .service .service_list div img{
+        order:-1;
+        width: 100%;
+    }
+
+    .push .service .service_list div p{
+        margin: 0;
+        width: auto;
+        font-size: 16px;
+    }
+
+    .redline{
+    width: 100px;
+    height: 3px;
+    background-color: red;
+    margin-bottom: 10px;
+    position: relative;
+    /* ------------------------------------- */
+    animation: neon 1.5s ease-in-out infinite alternate;
+    }
+
+    @keyframes neon {
+        0% {
+          box-shadow: 0 0 10px red, 0 0 20px red, 0 0 30px red, 0 0 40px red,
+            0 0 70px red, 0 0 80px red;
+        }
+        100% {
+          box-shadow: 0 0 5px red, 0 0 10px red, 0 0 15px red, 0 0 20px red,
+            0 0 35px red, 0 0 40px red;
+        }
+      }
+
+
+    /* ------------------------------------------------------------------- */
+
+footer .footer1{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+footer .footer1 span{
+    margin: 0;
+    padding: 5px 10px;
+    border-bottom: 1px solid white;
+}
+
+footer .footer1_1{
+    text-align: left;
+    padding: 5px 10px ;
+    margin: 0;
+    border-bottom: 1px solid white;
+    
+}
+
+.wrapper_service footer .footer2{
+    text-align: left;
+    font-size: 14px;
+    padding:  5px 10px;
+}
+
+}

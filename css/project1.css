@@ -1,5 +1,5 @@
 @import url("reset.css");
-@import url(/css/media/projectmedia.css);
+@import url(../css/media/projectmedia.css);
 
 body{
     font-size: 18px;

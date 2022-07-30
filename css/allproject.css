@@ -116,7 +116,7 @@ footer a{
 
 
 footer a:hover{
-    border-bottom: 1px solid white;
+    /* border-bottom: 1px solid white; */
 }
 
 /* ------------------------------------all project--------------------------------------- */
@@ -141,7 +141,7 @@ header{
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: calc(100vh - 166px);
+    height: calc(100vh - 121px);
     margin: 0 auto;
 }
 
@@ -194,8 +194,8 @@ header{
 
 .project1{
     /* width: 100%; */
-    height: calc(100vh - 166px);
-    margin-top: 200px;
+    height: calc(100vh - 121px);
+    /* margin-top: 121px; */
     /* background-attachment: fixed; */
 }
 
@@ -272,3 +272,49 @@ input:hover{
 /* a:hover{
     border-bottom: 1px solid white;
 } */
+
+
+.fp-warning, .fp-watermark{
+    display: none;
+}
+
+/* ------------------------------------------------------------------- */
+.glitched {
+    /* animation-name: glitched; */
+    animation-duration: calc(.9s * 1.4);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
+
+  .nav_ul li:hover .glitched{
+    animation-name: glitched;
+    color: red;
+    text-shadow: 0 0 50px red,0 0 20px red;
+
+}
+
+
+nav .nav_ul a:hover{
+    border-bottom: 0px solid red ;
+}
+
+
+
+footer a:hover {
+    animation-name: glitched;
+    color: red;
+    text-shadow: 0 0 50px red,0 0 20px red;
+}
+
+
+@keyframes glitched {
+    0% { left: -4px; transform: skew(-20deg); }
+    11% { left: 2px; transform: skew(0deg); }
+    50% { transform: skew(0deg); }
+    51% { transform: skew(10deg); }
+    60% { transform: skew(0deg); }
+    100% { transform: skew(0deg); }
+  }
+
+
+
