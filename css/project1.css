@@ -1,101 +1,8 @@
 @import url("reset.css");
 @import url(../css/media/projectmedia.css);
-
-body{
-    font-size: 18px;
-    line-height: 1.6;
-    background-color: black;
-    color: white;
-    font-family: "Tomorrow",verdana, arial,"微軟正黑體";
-    font-weight: bold;
-    letter-spacing: 1px;
-}
-
-.wrapper_1{
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
-/* *{
-    outline: 1px solid red;
-} */
+@import url(../css/nav/nav_footer.css);
 
 
-nav{
-    background-color: rgba(0, 0, 0, 1);
-    width: 100%;
-    max-width: 1920px;
-    /* max-width: 1920px; */
-    display: flex;
-     justify-content:space-between;  
-     height: 121px;
-    margin: 0 auto;
-     position: fixed; 
-     z-index: 2;
-}
-
-nav .logo{
-}
-
-nav .about_logo{
-    flex-grow: 1;
-}
-
-nav img{
-    /* position: absolute; */
-    /* width: 124px; */
-    height: 65px;
-    margin-top: 28px;
-    margin-left: 70px;
-    /* left: 231px;
-    top: 30px; */
-
-}
-
-.trigram{
-    font-size: 30px;
-    text-align: center;
-    padding-right: 10px;
-    line-height: auto;
-    display: none;
-}
-
-.trigram:hover{
-    color:red;
-}
-
- .nav_ul{
-    display: flex;
-    margin-top: 47px;
-    margin-right: 70px;
-    /* flex-direction: row;
-    align-items: flex-start; */
-    gap: 34px;
-
-    /* position: absolute; */
-    
-    /* height: 19px;
-    left: 1370px;
-    top: 54px; */
-    
-}
-
-.nav_ul li{
-    /* width: 118.42px; */
-}
-
-.nav_ul li a{
-    display: block;
-    text-decoration: none;
-    color: white;
-    font-size: 16px;
-    text-align: center;
-
-}
-
-nav .nav_ul a:hover{
-    border-bottom: 1px solid white ;
-}
 
 
 /* --------------------------------------------------------------------------------------------------------------- */
@@ -647,36 +554,6 @@ margin-top: 120px;
 
 
 /*-------------------------------------------------------------------------------------------------------------------  */
-footer{
-    width: 100%;
-    margin: 100px auto 25px ;
-}
 
-footer span{
-    margin: 0 20px;
-}
-
-.footer1_1 {
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    margin: 0 20px;
-}
-
-footer p{
-    text-align: center;
-    font-size: 16px;
-    margin-top: 0;
-    padding-bottom: 25px;
-}
-
-footer a{
-    color: white;
-    text-decoration: none;
-}
-
-footer a:hover{
-    border-bottom: 1px solid white;
-}
 
 

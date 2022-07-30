@@ -41,19 +41,25 @@ item3_el.addEventListener("click",function(){
     if (page_no.innerText == 1) {
         title.innerText = "SPACE STATION";
         text.innerHTML ="The space relay station set up by our company on the other side of the galaxy is made of special metals found on Mars. Currently in the final setup stage, with other space stations capable of accommodating nearly 100,000 people, the space station has facilities such as relay stations, shopping malls, food courts, sports fields, etc., and has been opened for migration.";
-        all_img.classList.add("-on"); 
+        // all_img.classList.add("-on"); 
+        all_img.style.transform = 'translateY(' + 575 + 'px)';
+        all_img.style.transition = "all  1s";
     }
 
     if (page_no.innerText == 2) {
         title.innerText = "CONCEPT2";
         text.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus doloribus maxime debitis placeat sunt maiores natus dolorem laborum magni voluptate minus repellendus obcaecati aut quidem, nihil sed tempora alias." ;
-        all_img.classList.add("-on2");
+        // all_img.classList.add("-on2");
+        all_img.style.transform = 'translateY(' + 0 + 'px)';
+        all_img.style.transition = "all  1s";
     }
 
     if (page_no.innerText == 3) {
         title.innerText = "CONCEPT3";
         text.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis autem eum minus deleniti laudantium earum id. Iste quis quae necessitatibus corporis minus quia quo quaerat iusto cumque animi rerum illum eos placeat vero illo aliquam esse molestias quas doloremque suscipit modi, ut atque aliquid vel. Alias eius nobis odio exercitationem?';
-        all_img.classList.add("-on3");
+        // all_img.classList.add("-on3");
+        all_img.style.transform = 'translateY(-' + 575 + 'px)';
+        all_img.style.transition = "all  1s";
     }
 // --------------------------------------控制圖片--------------------------------------------
 
@@ -61,7 +67,6 @@ item3_el.addEventListener("click",function(){
 // img2.classList.add("-on");
 // img3.classList.add("-on");
 // all_img.classList.add("-on"); 
-console.log("bbb");
 
 
 // -----------------------------------------------------------------------------------
@@ -72,29 +77,31 @@ item1_el.addEventListener("click",function(){
         let x  = Number(page_no.innerText);
         x -= 1;
         page_no.innerText = x;
-// -----------------------------------------------------------------------------------
-if (page_no.innerText == 1) {
-    title.innerText = "SPACE STATION";
-    text.innerHTML ="The space relay station set up by our company on the other side of the galaxy is made of special metals found on Mars. Currently in the final setup stage, with other space stations capable of accommodating nearly 100,000 people, the space station has facilities such as relay stations, shopping malls, food courts, sports fields, etc., and has been opened for migration.";
-}
-
-if (page_no.innerText == 2) {
-    title.innerText = "CONCEPT2";
-    text.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus doloribus maxime debitis placeat sunt maiores natus dolorem laborum magni voluptate minus repellendus obcaecati aut quidem, nihil sed tempora alias." ;
-
-}
-
-if (page_no.innerText == 3) {
-    title.innerText = "CONCEPT3";
-    text.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis autem eum minus deleniti laudantium earum id. Iste quis quae necessitatibus corporis minus quia quo quaerat iusto cumque animi rerum illum eos placeat vero illo aliquam esse molestias quas doloremque suscipit modi, ut atque aliquid vel. Alias eius nobis odio exercitationem?';
-}
-// -----------------------------------------------------------------------------------        
+  
     }else{
         page_no.innerText = 3;
     }
 
-    all_img.classList.remove("-on");
-    console.log("aaa");
+    if (page_no.innerText == 1) {
+        title.innerText = "SPACE STATION";
+        text.innerHTML ="The space relay station set up by our company on the other side of the galaxy is made of special metals found on Mars. Currently in the final setup stage, with other space stations capable of accommodating nearly 100,000 people, the space station has facilities such as relay stations, shopping malls, food courts, sports fields, etc., and has been opened for migration.";
+        all_img.style.transform = 'translateY(' + 575 + 'px)';
+        all_img.style.transition = "all  1s";
+    }
+    
+    if (page_no.innerText == 2) {
+        title.innerText = "CONCEPT2";
+        text.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus doloribus maxime debitis placeat sunt maiores natus dolorem laborum magni voluptate minus repellendus obcaecati aut quidem, nihil sed tempora alias." ;
+        all_img.style.transform = 'translateY(' + 0 + 'px)';
+        all_img.style.transition = "all  1s";
+    }
+    
+    if (page_no.innerText == 3) {
+        title.innerText = "CONCEPT3";
+        text.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis autem eum minus deleniti laudantium earum id. Iste quis quae necessitatibus corporis minus quia quo quaerat iusto cumque animi rerum illum eos placeat vero illo aliquam esse molestias quas doloremque suscipit modi, ut atque aliquid vel. Alias eius nobis odio exercitationem?';
+        all_img.style.transform = 'translateY(-' + 575 + 'px)';
+        all_img.style.transition = "all  1s";
+    }
 })
 
 
