@@ -1,20 +1,170 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
+  <head>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <!-- Link Swiper's CSS -->
+    
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+      
+    />
+    <link rel="stylesheet" href="./css/service.css">
 
-</head>
-<body>
-  <div class="glitch">
-    <div class="glitch__item"></div>
-    <!-- ... -->
-    <div class="glitch__item"></div>
+    <!-- Demo styles -->
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
+      /* body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      } */
+
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <body class="body_service">
+  
+      <div class="wrapper_service">
+          <nav>
+              <a class="logo" href="./homepage.html" >
+                  <div class="about_logo">
+                      <img src="./img/logo_white.png" alt="">
+                  </div>
+                  </a>
+                  <div class="trigram">&#9776</div>
+                  <ul class="nav_ul">
+                      <li><a class="glitched" href="./allproject.html"> ALL PROJECT</a></li>
+                      <li><a class="glitched" href="./conceptpage.html"> CONCEPT</a></li>
+                      <li><a class="glitched" href="./service.html"> SERVICE</a></li>
+                  </ul>
+          </nav>
+          <div class="push">
+    <section class="service">
+      <span><h1>SERVICE</h1></span>
+      <main class="service_main">
+
+    <!-- Swiper -->
+    <div class="service_text">
+      <div>
+      <h2>Maintain</h2>
+      <div class="service_line"></div>
+      <p>Vehicles purchased from our company are guaranteed for 5 years. As long as the damage is not caused by human factors, free repair and replacement of parts are provided. For details, you can contact us through the chip network.
+          As long as it is within our service scope, we will dispatch service personnel to your location for evaluation and repair.
+      </p>
+      </div>
   </div>
-</body>
+
+    <div class="swiper mySwiper service_list">
+      <div class="swiper-wrapper  ">
+        <div class="service1 swiper-slide">
+          <h3>Maintain</h3>
+          <img src="./img/service_01.png" alt="">
+          <span class="redline"></span>
+          <p>Vehicles purchased from our company are guaranteed for 5 years. As long as the damage is not caused by human factors, free repair and replacement of parts are provided. For details, you can contact ...</p>
+      </div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide service3"> 
+          <h3>Aerial Refueling</h3>
+          <img src="./img/service_03.png" alt="">
+          <span class="redline"></span>
+          <p>Air vehicles do not need to worry about the problem of no fuel in the middle. As long as the chip network and automatic detection system are used, you can reserve the nearest drone to your location ...</p>
+      </div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </main>
+</section>
+<!-- ------------------------------------------------------------------ -->
+</div>
+</div>
+<footer>
+  <p class="footer1">
+      
+      <span>FUTURE © 2022</span>
+      <a href="./project.html" class="footer1_1">PROJECT01</a>
+      <a href="./project.html" class="footer1_1">PROJECT02</a>
+      <a href="./project.html" class="footer1_1">PROJECT03</a>
+      <a href="./conceptpage.html" class="footer1_1">CONCEPT</a>
+      <a href="./service.html" class="footer1_1">SERVICE</a>
+      <a href="./about.html" class="footer1_1">ABOUT</a>
+  
+  </p>
+  <p class="footer2">
+      本網站為緯育TibaMe前端工程師班第78期學員專題作品，本平台僅供學習、展示之用。
+      <a href="https://docs.google.com/document/d/1URUYE_jqEgCNcFwj2eooHtLO5nWqObulDhTMoiw_tWY/edit">
+      參考資料
+      </a>
+  </p>
+</footer>
+</div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 3,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true, 
+        },
+      });
+    </script>
+  </body>
 </html>

@@ -27,9 +27,6 @@ let text = concept3_1.children[2];
 
 // console.log(Number(page_no.innerText));
 item3_el.addEventListener("click",function(){
-    all_img.classList.remove("-on");
-    all_img.classList.remove("-on2");
-    all_img.classList.remove("-on3");
    if(Number(page_no.innerText) < 3){
         let x = Number(page_no.innerText);
         x += 1;
