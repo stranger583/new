@@ -77,7 +77,7 @@ let service3 = service_list.querySelectorAll("div")[2];
 
 // })
 
-
+re
 
 $(function () {		
     let i = 0;
@@ -87,7 +87,6 @@ $(function () {
        // $(".slide").append($(".service_list").clone(true));
       
     })
-
 
 
     $( ".service_list" ).draggable({
@@ -107,7 +106,7 @@ $(function () {
             // if(a >= 570 && a < 1240 ){$( ".service_list" ).animate({left:0,},500)}
             // if(a >= 1240 && a < 1595 ){$( ".service_list" ).animate({left:335,},500);}
             // if(a >= 1595 && a < 1930 ){$( ".service_list" ).animate({left:670,},500)}
-            if(a<900){$(".service_list").append($(".service1, .service2, .service3").clone(true));
+            if(a < 900){$(".service_list").append($(".service1, .service2, .service3").clone(true));
         }
 
 

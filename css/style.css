@@ -272,12 +272,18 @@
 }
 
 
+.home5_1 .ul_content{
+    flex-grow: 1;
+    overflow: hidden;
+    max-width:100%;
+    width: 100%;
+}
 
 .home5_1 .home5_1_ul{
     display: flex;
-    flex-grow: 1;
-    
-    
+    overflow: hidden;
+    max-width:100%;
+    width: 1200px;
 }
 
 .home_service1{
@@ -307,16 +313,17 @@
 .home5 .polygon1  {
     /* display: block; */
     flex-grow: 1;
-    margin: 218.69px 0;
-    
+    width: 50px;
+    margin: 218.69px 0; 
 }
+
+
 
 .home5 .polygon2  {
     flex-grow: 0;
     /* display: block; */
-    
+    width: 50px;
     margin: 218.69px auto;
-    
 }
 
 
@@ -350,14 +357,65 @@ input:hover{
 }
 
 .home5 .polygon2:hover {
-    transform: translate(10px);
+    animation: right .5s linear infinite;
     cursor:pointer;
 }
+
+
+
+
 
 .home5 .polygon1:hover {
-    transform: translate(-10px);
+    animation: left .5s linear infinite;
     cursor:pointer;
 }
 
+.home5_1_ul li  .home5_light{
+    animation-name: glitched;
+    animation-duration: calc(.9s * 1.4);
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    font-size: 20px;
+}
+.home5_light:hover{
+    color: red;
+    text-shadow: 0 0 50px red,0 0 20px red;
+}
+
+.scale{
+    animation: slow 1s;
+
+}
+
+@keyframes slow {
+    0%{
+        
+        transform: scale(.7);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
 
 
+@keyframes right {
+    0%{
+        
+        transform: translate(0);
+    }
+    
+    100%{
+        transform: translate(10px);
+    }
+}
+
+@keyframes left {
+    0%{
+        
+        transform: translate(0);
+    }
+    
+    100%{
+        transform: translate(-10px);
+    }
+}
