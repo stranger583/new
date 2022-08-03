@@ -77,7 +77,7 @@ let service3 = service_list.querySelectorAll("div")[2];
 
 // })
 
-re
+
 
 $(function () {		
     let i = 0;
@@ -99,15 +99,24 @@ $(function () {
         },
         stop: function(e) {
             let a = $(this).offset().left;
-            console.log(a);
-
-            // if(a >= -100 && a < 235 ){$( ".service_list" ).animate({left: -670,},500)}
-            // if(a >= 235 && a < 570 ){$( ".service_list" ).animate({left: -335,},500)}
-            // if(a >= 570 && a < 1240 ){$( ".service_list" ).animate({left:0,},500)}
-            // if(a >= 1240 && a < 1595 ){$( ".service_list" ).animate({left:335,},500);}
-            // if(a >= 1595 && a < 1930 ){$( ".service_list" ).animate({left:670,},500)}
-            if(a < 900){$(".service_list").append($(".service1, .service2, .service3").clone(true));
-        }
+            let t = Math.ceil( a / 335); //   a/335變成整數
+            // console.log(t);
+            // console.log(a);
+            let m = 335;
+            let b = -100;
+            // console.log(-t*m);
+            let c =   $(".service_list" ).css("left");
+            //let c1 = Math.ceil(c);
+            
+            
+            if(t !== 0){$( ".service_list" ).animate({left: (c + (-t * m)),},500);}
+            // if(a >= b && a < (b + m) ){$( ".service_list" ).animate({left: -2*m,},500)}
+            // if(a >= (b + m) && a < (b + 2 * m) ){$( ".service_list" ).animate({left: -m,},500)}
+            // if(a >= (b + 2 * m) && a < (b + 3 * m) ){$( ".service_list" ).animate({left:0,},500)}
+            // if(a >= (b + 3 * m) && a < (b + 4 * m) ){$( ".service_list" ).animate({left:m,},500);}
+            // if(a >= (b + 4 * m) && a < (b + 5 * m) ){$( ".service_list" ).animate({left:2*m,},500)}
+            $(".service_list").append($(".service1, .service2, .service3").clone(true));
+           
 
 
             

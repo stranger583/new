@@ -382,30 +382,102 @@ input:hover{
     text-shadow: 0 0 50px red,0 0 20px red;
 }
 
-.scale{
-    animation: slow 1s;
+.scale2{
+    animation: slow .5s;
+}
 
+.scale3{
+    animation: slow1 .5s;
+}
+
+.scale1{
+    animation: slow3 .5s;
+}
+
+.righ1{
+    animation: righ1 .5s;
+}
+
+.righ2{
+    animation: righ2 .5s;
+}
+
+.righ3{
+    animation: righ3 .5s;
+}
+
+@keyframes slow1 {
+    0%{
+        
+         
+        transform: translateX(-400px) scale(0.7, 0.7); 
+
+    }
+    100%{
+        
+         
+        transform: translateX(0) scale(0.7, 0.7); 
+    }
 }
 
 @keyframes slow {
     0%{
-        
-        transform: scale(.7);
+        transform: translateX(-400px) scale(0.7, 0.7); 
     }
     100%{
-        transform: scale(1);
+        
+         
+        transform: translateX(0) scale(1, 1); 
+    }
+}
+
+@keyframes slow3 {
+    0%{
+        transform: translateX(-400px) scale(1, 1); 
+    }
+    100%{
+        transform: translateX(0) scale(0.7, 0.7); 
     }
 }
 
 
-@keyframes right {
+
+
+
+
+@keyframes righ1 {
     0%{
         
-        transform: translate(0);
+        transform: translateX(400px) scale(0.7, 0.7); 
+
     }
     
     100%{
-        transform: translate(10px);
+        transform: translateX(0) scale(0.7, 0.7); 
+    }
+}
+
+@keyframes righ2 {
+    0%{
+        
+        transform: translateX(400px) scale(0.7, 0.7); 
+
+    }
+    
+    100%{
+        transform: translateX(0) scale(1, 1); 
+    }
+}
+
+@keyframes righ3 {
+    0%{
+        
+        transform: translateX(400px) scale(1, 1); 
+
+    }
+    
+    100%{
+        transform: translateX(0) scale(0.7, 0.7); 
     }
 }
 
@@ -419,3 +491,31 @@ input:hover{
         transform: translate(-10px);
     }
 }
+
+@keyframes right {
+    0%{
+        
+        transform: translate(0);
+    }
+    
+    100%{
+        transform: translate(10px);
+    }
+}
+
+#good{
+    display: flex;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.home2{
+    width: 100vw;
+    flex-shrink: 0;
+}
+
+.go{
+    transition: all 1s;
+    transform: translateX(-1000px)
+}
+
