@@ -352,8 +352,12 @@ span{
 }
 
 input:hover{
-    background-color: rgba(255, 255, 255 ,.5);
+    /* background-color: rgba(255, 255, 255 ,.5); */
     cursor:pointer;
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: 0 0 50px red,0 0 20px red;
+    
 }
 
 .home5 .polygon2:hover {
@@ -504,18 +508,29 @@ input:hover{
 }
 
 #good{
-    display: flex;
     width: 100vw;
-    overflow: hidden;
+    outline: 1px solid red;
+    /* overflow: hidden; */
+}
+
+#good2{
+    display: flex;
+    width: 300vw;
+    position: relative;
+    /* overflow: hidden; */
 }
 
 .home2{
     width: 100vw;
     flex-shrink: 0;
+    
 }
 
 .go{
     transition: all 1s;
     transform: translateX(-1000px)
 }
+
+
+
 

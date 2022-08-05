@@ -116,6 +116,8 @@ $(function () {
             // if(a >= (b + 3 * m) && a < (b + 4 * m) ){$( ".service_list" ).animate({left:m,},500);}
             // if(a >= (b + 4 * m) && a < (b + 5 * m) ){$( ".service_list" ).animate({left:2*m,},500)}
             $(".service_list").append($(".service1, .service2, .service3").clone(true));
+            
+          
            
 
 
