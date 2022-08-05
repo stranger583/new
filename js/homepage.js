@@ -4,7 +4,7 @@ $(function(){
     $(".home5_1_ul").find('li:last').attr('disable',true).css("pointer-events","none");
     // $(".home5_1_ul").find('li:nth-child(2)').addclass("home5_light");
     
- if(innerWidth > 414{
+ if(innerWidth > 414){
     $( ".polygon1" ).click(
        
         function(){
