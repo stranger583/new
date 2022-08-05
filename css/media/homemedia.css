@@ -153,6 +153,7 @@
 
 .wrapper .home5{
     max-width: 100%;
+    
 } 
 
 .wrapper .home5_1 .ul_content{
@@ -162,17 +163,20 @@
 .wrapper .home5_1 .home5_1_ul{
     width: auto;
     margin: 0 auto;
-    justify-content: center;
+    /* justify-content: center; */
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
 }
 
 .home5  .home5_1 {
     width: 100%;
     overflow: hidden;
-    justify-content: center;
+    /* justify-content: center; */
 }
 
 .home5 .home5_1 ul li{
     margin-left: 10px;
+    scroll-snap-align: center;
 }
 
 .home5_1 .home_service1{

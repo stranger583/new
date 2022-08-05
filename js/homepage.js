@@ -4,7 +4,7 @@ $(function(){
     $(".home5_1_ul").find('li:last').attr('disable',true).css("pointer-events","none");
     // $(".home5_1_ul").find('li:nth-child(2)').addclass("home5_light");
     
-    
+ if(innerWidth > 414{
     $( ".polygon1" ).click(
        
         function(){
@@ -70,64 +70,9 @@ $(function(){
     )
 
     
-
+    }
 })
 
-
-/*
-
-$(function(){
-    $(window).wheel(function(e){
-        e.preventDefault();
-    if(scrollY > 1150){
-        e.preventDefault();
-    }
-       
-    })
-  
-    let a = $("#good")[0].pageY;
-    let b = $("#good").innerHeight();
-
-    console.log(a);
-}) */
-
-// let scrollable = false;
-    
-
-    
-
-// let scrollable = true;
-	
-// 	const wheel = (node, options) => {
-        
-// 		let { scrollable } = options;
-// 		console.log();
-// 		const handler = e => {
-// 			if (!scrollable) e.preventDefault();
-// 		};
-		
-// 		node.addEventListener('wheel', handler, { passive: false });
-		
-// 		return {
-// 			update(options) {
-// 				scrollable = options.scrollable;
-// 			},
-// 			destroy() {
-// 				node.removeEventListener('wheel', handler, { passive: false });
-// 			}
-// 		};
-//   };
-
-
-// function stop(e){
-//     return false;
-// };
-
-// if(scrollY > 1150){
-//     $(window).on('scroll',stop,{ passive: false })
-// }else{
-//     $(window).off("scroll",stop,{ passive: false })
-// }
 
 
 

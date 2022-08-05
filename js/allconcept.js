@@ -4,7 +4,7 @@ let item3_el = document.getElementsByClassName("item3")[0];
 let page_no = document.getElementsByClassName("page_number")[0];
 let line =document.getElementsByClassName("line")[0];
 document.querySelector("div.line > span.line1");
-console.log(document.querySelector("div.line > span.line1"));
+
 // ----------------------------中間--------------------------------------------
 
 let all_img = document.getElementsByClassName("all_img")[0];

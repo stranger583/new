@@ -7,6 +7,8 @@
     <title>FUTURE</title>
     <script src="./js/jquery-3.6.0.min.js"></script>
     <script src="./js/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 </head>
@@ -48,7 +50,7 @@
   <div id ="good">
     <div id="good2">
         <!-- ---------------------------------------- -->
-        <div class="home2">
+        <div class="home2 p1">
             <div class="home2_1">
                 <a class="home2_link" href="./project.html">
                     <h2>PROJECT01</h2>
@@ -57,15 +59,15 @@
                     </p>
                 </a>
         
-                <ul class="home2_1_ul">
+                <!-- <ul class="home2_1_ul">
                     <li> </li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
 <!-- ---------------------------------------- -->
-        <div class="home2">
+        <div class="home2 p2">
             <div class="home2_1">
                 <a class="home2_link" href="./project.html">
                     <h2>PROJECT01</h2>
@@ -74,15 +76,15 @@
                     </p>
                 </a>
         
-                <ul class="home2_1_ul">
+                <!-- <ul class="home2_1_ul">
                     <li> </li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ul> -->
             </div>
         </div>
         
-        <div class="home2">
+        <div class="home2 p3">
             <div class="home2_1">
                 <a class="home2_link" href="./project.html">
                     <h2>PROJECT01</h2>
@@ -91,11 +93,11 @@
                     </p>
                 </a>
         
-                <ul class="home2_1_ul">
+                <!-- <ul class="home2_1_ul">
                     <li> </li>
                     <li></li>
                     <li></li>
-                </ul>
+                </ul> -->
             </div>
         </div> 
 
@@ -185,6 +187,22 @@
 
     </div>
     <script src="./js/homepage.js"></script>
+    <script>
+        gsap.registerPlugin(ScrollTrigger);
+        let sections = gsap.utils.toArray(".home2");
+
+        gsap.to(sections, {
+  xPercent: -100 * (sections.length - 1),
+  ease: "none",
+  scrollTrigger: {
+    trigger: "#good",
+    pin: "#good",
+    scrub: 1,
+    snap: 1 / (sections.length - 1),
+    end: "+=3500",
+  }
+});
+    </script>
     
 </body>
 </html>

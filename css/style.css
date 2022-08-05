@@ -166,6 +166,7 @@
     font-size: 18px;
     line-height: 2;
     
+    
 }
 
 .home3_1 input{
@@ -508,14 +509,14 @@ input:hover{
 }
 
 #good{
-    width: 100vw;
-    outline: 1px solid red;
-    /* overflow: hidden; */
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 #good2{
     display: flex;
-    width: 300vw;
+    width: 300%;
     position: relative;
     /* overflow: hidden; */
 }
@@ -529,6 +530,18 @@ input:hover{
 .go{
     transition: all 1s;
     transform: translateX(-1000px)
+}
+
+.p1{
+    
+}
+
+.p2{
+    background-image: url(../img/project_02.png);
+}
+
+.p3{
+    background-image: url(../img/project_03.png);
 }
 
 
