@@ -24,7 +24,7 @@
        right:-414px;
        margin-right: 0;
        margin-top: 0;
-       /* border-bottom: 1px solid white; */
+       
    }
 
   .wrapper nav  .-on{
@@ -33,7 +33,7 @@
     justify-content: center;
     animation: move  1.5s ease-in-out forwards;
     transition: all 1s;
-    /* right: 0; */
+   
     
    }
 

@@ -12,41 +12,60 @@
         margin-left: 10px;
         height:50px;
     }
-
-
+ 
+ 
     nav .nav_ul{
         position: absolute;
+        background-color: black;
         display: none;
-        width: 100%;
+        width: 70%;
+        height: calc(100vh - 70px);
         top:70px;
-        right:0;
+        right:-414px;
         margin-right: 0;
         margin-top: 0;
+        
     }
-
+ 
+   .wrapper_1 nav  .-on{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     animation: move  1.5s ease-in-out forwards;
+     transition: all 1s;
+    
+     
+    }
+ 
+    @keyframes move{
+     0%{
+         right:-414px;
+     }
+     100%{
+         right: 0;
+     }
+ } 
+ 
     nav .nav_ul li{
         background-color: black;
         display: block;
+        /* border-top: 1px solid white; */
     }
     
     nav .nav_ul li a{
         display: block;
         text-decoration: none;
         color: white;
-        font-size: 16px;
+        font-size: 24px;
         text-align: center;
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
+ 
     nav .trigram{
         display: inline;
         line-height: 70px;
         font-weight: 300;
-    }
-
-    nav .trigram:hover +.nav_ul{
-        display: block;
     }
 
 /* -----------------------------------------project1----------------------------------------------------- */

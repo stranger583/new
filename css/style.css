@@ -203,13 +203,15 @@
 
 .home4_1{
     flex-grow: 1;
+    /* overflow: hidden; */
 }
 
 .home4_1 img{
     display: block;
     margin: 0 auto;
-
 }
+
+
 
 .home4_2{
     flex-grow: 1;

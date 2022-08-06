@@ -4,7 +4,7 @@ $(function(){
     $(".home5_1_ul").find('li:last').attr('disable',true).css("pointer-events","none");
     // $(".home5_1_ul").find('li:nth-child(2)').addclass("home5_light");
     
- if(innerWidth > 414){
+
     $( ".polygon1" ).click(
        
         function(){
@@ -70,11 +70,28 @@ $(function(){
     )
 
     
-    }
+    
 })
 
+if (window.width < 300) {
+    console.log("SSS");
+    $(".home5_1_ul").find('li:first').css('transform', 'scale(.7)').attr('disable',false).css("pointer-events","auto");
+            $(".home5_1_ul").find('li:nth-child(2)').css('transform', 'scale(1)').css("pointer-events","auto");
+            $(".home5_1_ul").find('li:last').css('transform', 'scale(.7)').css("pointer-events","auto");
+    $(".home5_1_ul").find('li:first a').addClass("home5_light")
+            $(".home5_1_ul").find('li:nth-child(2) a').addClass("home5_light")
+            $(".home5_1_ul").find('li:last a').addClass("home5_light")
+}
 
 
+
+
+let trigram = document.getElementsByClassName("trigram")[0];
+let nav_ul= document.getElementsByClassName("nav_ul")[0];
+trigram.addEventListener("click",function(){
+     nav_ul.classList.toggle("-on");
+     trigram.classList.toggle("red");
+}) 
 
     
     

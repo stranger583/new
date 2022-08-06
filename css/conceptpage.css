@@ -216,7 +216,7 @@ section{
 
 
 
-.-on{
+/* .-on{
     transform: translateY(575px);
     transition: all 1s;
 }
@@ -229,4 +229,4 @@ section{
 .-on3{
     transform: translateY(-575px);
     transition: all 1s;
-}
+} */
