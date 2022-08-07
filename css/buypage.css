@@ -211,11 +211,17 @@
 }
 
 .buy_right .buy_right_1 .buy_right_3  .buy_order:hover{
-    background-color: rgb(70, 70, 70);
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: 0 0 50px red,0 0 20px red;
+    cursor: pointer;
 }
 
 .buy_right .buy_right_1 .buy_right_2  .buy_order:hover{
-    background-color: rgb(70, 70, 70);
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: 0 0 50px red,0 0 20px red;
+    cursor: pointer;
 }
 
 @media screen and (max-width:1440px) {

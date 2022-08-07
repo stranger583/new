@@ -3,7 +3,8 @@ let item1_el = document.getElementsByClassName("item1")[0];
 let item3_el = document.getElementsByClassName("item3")[0];
 let page_no = document.getElementsByClassName("page_number")[0];
 let line =document.getElementsByClassName("line")[0];
-document.querySelector("div.line > span.line1");
+document.querySelectorAll("div.line > span.line1");//陣列
+console.log(document.querySelectorAll("div.line > span.line1")[0]);
 
 // ----------------------------中間--------------------------------------------
 
@@ -120,24 +121,30 @@ item1_el.addEventListener("click",function(){
 // console.log(Math.abs(img2.getBoundingClientRect().left - all_img.getBoundingClientRect().left))
 // console.log(Math.abs(img3.getBoundingClientRect().left - all_img.getBoundingClientRect().left))
 if(innerWidth < 450){
+
+    document.querySelectorAll("div.line > span.line1")[0].classList.add("redlight")//初始值
     all_img.addEventListener('scroll',function(){
+        for (let i = 0; i < document.querySelectorAll("div.line > span.line1").length; i++) {
+            document.querySelectorAll("div.line > span.line1")[i].classList.remove("redlight")
+        }
+
         if (Math.abs(img1.getBoundingClientRect().left - all_img.getBoundingClientRect().left)< 10) {
             console.log("aaa");
             title.innerText = "SPACE STATION";
             text.innerHTML ="The space relay station set up by our company on the other side of the galaxy is made of special metals found on Mars. Currently in the final setup stage, with other space stations capable of accommodating nearly 100,000 people, the space station has facilities such as relay stations, shopping malls, food courts, sports fields, etc., and has been opened for migration.";
-    
+            document.querySelectorAll("div.line > span.line1")[0].classList.add("redlight")
         }
         if (Math.abs(img2.getBoundingClientRect().left - all_img.getBoundingClientRect().left)< 70) {
             console.log(Math.abs(img2.getBoundingClientRect().left - all_img.getBoundingClientRect().left));
             title.innerText = "CONCEPT2";
             text.innerHTML ="Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet possimus doloribus maxime debitis placeat sunt maiores natus dolorem laborum magni voluptate minus repellendus obcaecati aut quidem, nihil sed tempora alias." ;
-    
+            document.querySelectorAll("div.line > span.line1")[1].classList.add("redlight")
         }
         if (Math.abs(img3.getBoundingClientRect().left - all_img.getBoundingClientRect().left)<86) {
             console.log("ccc");
             title.innerText = "CONCEPT3";
             text.innerHTML = 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis autem eum minus deleniti laudantium earum id. Iste quis quae necessitatibus corporis minus quia quo quaerat iusto cumque animi rerum illum eos placeat vero illo aliquam esse molestias quas doloremque suscipit modi, ut atque aliquid vel. Alias eius nobis odio exercitationem?';
-    
+            document.querySelectorAll("div.line > span.line1")[2].classList.add("redlight")
             
         }
     })

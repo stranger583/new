@@ -81,11 +81,17 @@ section{
     margin-right: 10px;
 }
 
-.line .line1:nth-child(2){
+/* .line .line1:nth-child(2){
     width: 50px;
     background-color: red;
     animation: neon 1.5s ease-in-out infinite alternate;
-}
+} */
+
+ .line .redlight{
+    width: 50px;
+    background-color: red;
+    animation: neon 1.5s ease-in-out infinite alternate;
+} 
 
 
 .concept2 .img{
@@ -151,7 +157,6 @@ section{
 }
 
 .concept3 input{
-    border-radius: 5px;
     width: 341px;
     height: 50.59px;
     border: 1px solid white;
@@ -164,7 +169,10 @@ section{
 }
 
 .concept3 input:hover{
-    background-color:gray;
+    cursor:pointer;
+    background-color: red;
+    border: 1px solid red;
+    box-shadow: 0 0 50px red,0 0 20px red;
 }
 
 

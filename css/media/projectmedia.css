@@ -70,7 +70,7 @@
 
 /* -----------------------------------------project1----------------------------------------------------- */
     .wrapper_1 .project{
-        /* display: block; */
+        padding-top: 70px;
     }
 
     .wrapper_1 .project{
@@ -89,11 +89,12 @@
     .project1 .project1_title h1{
         font-size: 36px;
         width: auto;
+        margin-top: -75px;
     }
 
     .project1 .project1_title h3{
         font-size: 16px; 
-        width: 196px; 
+        width: auto; 
     }
 
     .project .project1 ul  li h2{
@@ -112,7 +113,8 @@
 /* -----------------------------------------project2----------------------------------------------------- */
 .wrapper_1 .project2{
     max-width: 100%;
-    margin-top: 0;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 iframe{
@@ -122,7 +124,7 @@ iframe{
 /* -----------------------------------------project3----------------------------------------------------- */
 .wrapper_1 .project3{
     margin-top: 30px;
-    /* height: calc(100vh - 206px); */
+    margin-bottom: 30px;
     height: auto;
     padding: 0;
     overflow: hidden;
@@ -160,19 +162,21 @@ iframe{
 .project3 .project3_text h3{
     font-size: 20px;
     margin-bottom: 5px;
+    padding: 0 30px;
     
 }
 
 .project3 .project3_text p{
     font-size: 16px;
     margin-bottom: 20px;
+    padding: 0 30px;
 }
 /* -----------------------------------------project4----------------------------------------------------- */
 .wrapper_1 .project4{
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
 }
 
 .wrapper_1 .project4 .project4_left {
@@ -201,17 +205,17 @@ margin-left: 0;
 
 .wrapper_1 .project4 .project4_left h3{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 30px;
     width: 100%;
 }
 
 .wrapper_1 .project4 .project4_left .redline{
-    margin-left: 10px;
+    margin-left: 30px;
 }
 .wrapper_1 .project4 .project4_left p{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 16px;
     width: 100%;
 }
@@ -221,6 +225,7 @@ margin-left: 0;
     padding-right: 15px;
     height: calc(100vh - 70px);
     background-position: right;
+    margin-bottom: 30px;
 }
 
 .wrapper_1 .project5 div p{
@@ -240,7 +245,6 @@ margin-left: 0;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    height: 100vh;
 }
 
 .wrapper_1 .project6 .project6_left {
@@ -273,25 +277,38 @@ margin-left: 0;
 
 .wrapper_1 .project6 .project6_right h3{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 30px;
     width: 100%;
 }
 
 .wrapper_1 .project6 .project6_right .redline{
-    margin-left: 10px;
+    margin-left: 30px;
     width: 80px;
 }
 .wrapper_1 .project6 .project6_right p{
     box-sizing: border-box;
-    padding: 10px;
+    padding: 10px 30px;
     font-size: 16px;
     width: 100%;
 }
 
 .wrapper_1 .project7{
     margin-top: 0;
+    overflow: hidden;
 }
+
+.project7 img{
+    animation: gogogo 20s infinite ease-in-out;
+}
+
+@keyframes gogogo {
+    0%{
+        transform: translateX(0);
+    }
+    100%{
+        transform: translateX(-50%);
+}}
 
 .wrapper_1 footer{
     margin-top: 20px;
@@ -321,7 +338,7 @@ footer .footer1_1{
 .wrapper_1 footer .footer2{
     text-align: left;
     font-size: 14px;
-    padding:  5px 10px;
+    padding:  5px 30px;
 }
 
 }

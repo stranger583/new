@@ -74,14 +74,21 @@ nav .trigram{
     margin-bottom: 0;
    }
    .home1 .home1_1_1 h2{
-    font-size: 36px;
+    font-size: 30px;
     padding: 0;
     text-align: center;
    }
 
    .home1 .home1_1_1 p{
+    /* display: none; */
+    font-size: 16px;
+    padding: 10px 38px;
+   }
+
+   .home1 .home1_1_1 br{
     display: none;
    }
+
 
    /* ---------------------------------------------------------------------------------- */
    .wrapper .home2{
@@ -122,10 +129,12 @@ nav .trigram{
    .wrapper .home3{
     flex-direction: column;
     height: auto;
+    margin-top: 100px;
+    margin-bottom: 60px;
    }
 
    .home3 .home3_1 {
-    padding: 20px;
+    padding: 30px;
    }
    .home3 .home3_1 h2{
     font-size: 30px;
@@ -154,13 +163,14 @@ nav .trigram{
    .wrapper .home4{
     flex-direction: column;
     height: auto;
+    margin-bottom: 100px;
    }
    .home4 .home4_1 img{
     max-width: 100%;
    }
 
    .home4 .home4_2{
-    padding: 20px;
+    padding: 30px;
    }
 
    .home4 .home4_2 h2{
@@ -181,8 +191,13 @@ nav .trigram{
 
 .wrapper .home5{
     max-width: 100%;
-    
+    margin-bottom:100px ;
 } 
+
+.wrapper .home5 h2{
+    margin-bottom: 60px;
+    font-size: 30px;
+}
 
 .wrapper .home5_1 .ul_content{
     width: auto;
@@ -278,6 +293,6 @@ footer .footer1_1{
 .wrapper footer .footer2{
     text-align: left;
     font-size: 14px;
-    padding:  5px 10px;
+    padding:  5px 30px;
 }
 }

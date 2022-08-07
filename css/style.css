@@ -46,6 +46,13 @@
     font-size: 21px;
 }
 
+.home1_1_1 p::after{
+    content: "_";
+    /* margin-left: 10px; */
+    font-size: 21px;
+    animation: ma1 1s  infinite ;
+}
+
 .home2{
     /* width: 100%; */
     display: block;
@@ -259,11 +266,33 @@
 
 .home5{
     /* width: 90%; */
-    margin: 0 auto;
+    margin: 0 auto 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     /* border: 1px solid white; */
+}
+
+.home5 h2{
+    text-align: center;
+    margin-bottom: 130px;
+    font-size: 36px;
+}
+
+.home5 h2::after{
+    content: "_";
+    margin-left: 10px;
+    font-size: 36px;
+    animation: ma1 1s  infinite ;
+}
+
+@keyframes ma1{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
 }
 
 .home5_1{
@@ -331,24 +360,6 @@
 
 
 
-.home5 input{
-    display: block;
-    margin: 40px auto 0;
-    background: none;
-    border: 1px solid white;
-    color: white;
-    height: 60px;
-    width: 1200px;
-    font-family: verdana;
-    font-weight: bold;
-    font-size: 18px;
-    
-}
-
-footer{
-    width: 100%;
-    margin: 200px auto 25px;
-}
 
 span{
     margin: 0 20px;
