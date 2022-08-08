@@ -19,7 +19,7 @@ nav .nav_ul{
     background-color: black;
     display: none;
     width: 70%;
-    height: calc(100vh - 70px);
+    height: 100vh;
     top:70px;
     right:-414px;
     margin-right: 0;
@@ -73,11 +73,18 @@ nav .trigram{
 }
 
 /* ------------------------------------------------------------------- */
-
+.wrapper header{
+    padding-top: 70px;
+    height: 100vh;
+}
+header .header_1{
+background-attachment: unset;
+height: 100vh;
+}
 
 header .header_1_1{
     margin: 0;
-    padding: 20px;
+    padding: 30px;
 }
 
 .header_1_1 br{
@@ -103,9 +110,10 @@ header .header_1_1 p{
 .wrapper .project1{
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     margin-top: 0;
-    background-attachment: fixed;
+    height: 100vh;
+    background-attachment: unset;
 }
 
  .project1 p{
