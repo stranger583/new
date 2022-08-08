@@ -95,6 +95,9 @@ nav .trigram{
    }
 
    .about .about1 .about_text p{
+    display: block;
+    }
+   .about .about1 .about_text p~p{
         display: none;
    }
 

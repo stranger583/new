@@ -1,7 +1,7 @@
 $(function(){
     let i =0;
-    $(".home5_1_ul").find('li:first').attr('disable',true).css("pointer-events","none");
-    $(".home5_1_ul").find('li:last').attr('disable',true).css("pointer-events","none");
+    // $(".home5_1_ul").find('li:first').attr('disable',true).css("pointer-events","none");
+    // $(".home5_1_ul").find('li:last').attr('disable',true).css("pointer-events","none");
     // $(".home5_1_ul").find('li:nth-child(2)').addclass("home5_light");
     
 
@@ -69,19 +69,19 @@ $(function(){
         }
     )
 
-    
+    if (document.innerWidth < 700) {
+        console.log("SSS");
+        $(".home5_1_ul").find('li:first').css('transform', 'scale(1)').css("pointer-events","auto");
+                $(".home5_1_ul").find('li:nth-child(2)').css('transform', 'scale(1)').css("pointer-events","auto");
+                $(".home5_1_ul").find('li:last').css('transform', 'scale(1)').css("pointer-events","auto");
+                $(".home5_1_ul").find('li:first a').addClass("home5_light")
+                $(".home5_1_ul").find('li:nth-child(2) a').addClass("home5_light")
+                $(".home5_1_ul").find('li:last a').addClass("home5_light")
+    }
     
 })
 
-if (window.width < 300) {
-    console.log("SSS");
-    $(".home5_1_ul").find('li:first').css('transform', 'scale(.7)').attr('disable',false).css("pointer-events","auto");
-            $(".home5_1_ul").find('li:nth-child(2)').css('transform', 'scale(1)').css("pointer-events","auto");
-            $(".home5_1_ul").find('li:last').css('transform', 'scale(.7)').css("pointer-events","auto");
-    $(".home5_1_ul").find('li:first a').addClass("home5_light")
-            $(".home5_1_ul").find('li:nth-child(2) a').addClass("home5_light")
-            $(".home5_1_ul").find('li:last a').addClass("home5_light")
-}
+
 
 
 

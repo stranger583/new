@@ -163,12 +163,20 @@
 }
 
 
-@media screen and (max-width:1440px) {
+@media screen and (max-width:1910px) {
+    .service_main{
+        max-width: 100%;
+        width: auto;
+        margin: 0 auto;
+    }
+    
     .service_main .service_text{
         margin-left: 60px;
-        margin-right: 60px;
+        margin-right: 0;
+        width: 500px;
+        padding: 0 20px 40px;
+        box-sizing: border-box;
     }
-
 }
 
 .text_test{
