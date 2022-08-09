@@ -131,6 +131,7 @@
     color: white;
     font-weight: bold;
     font-family: "Tomorrow",verdana, arial,"微軟正黑體";
+    padding: 20px;
 
 }
 
@@ -150,6 +151,7 @@
 
 .buy_right .buy_right_1 .buy_right_2 .country input{
    width: 220px;
+   padding: 20px;
 }
 
 .buy_right .buy_right_1 .buy_right_2  .buy_order{
@@ -178,6 +180,7 @@
     color: white;
     font-family: "Tomorrow",verdana, arial,"微軟正黑體";
     font-weight: bold;
+    padding: 20px;
 }
 
 
@@ -200,6 +203,7 @@
 }
 
 .buy_right .buy_right_1 .buy_right_3 .country input{
+    padding: 20px;
    width: 230px;
 }
 
